@@ -10,6 +10,6 @@
 
 # Comparison
 
-| Sampler | 1 Step| 5 Steps | 10 Steps | 15 Steps | 20 Steps | 25 Steps | 30 Steps | 35 Steps | 40 Steps | 45 Steps | 50 Steps | 55 Steps | 60 Steps |
-| --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- |
+| Sampler | 1 Step| 5 Steps | 10 Steps | 15 Steps | 20 Steps | 25 Steps | 30 Steps | 35 Steps | 40 Steps | 45 Steps | 50 Steps | 55 Steps | 60 |
+| - | - | - | -| - | - | - | - | - | - | - | - | - | -|
 | Euler a | ![00000-2961182060.png](images/sd-comparison/00000-2961182060.png) | ![00001-2961182060.png](images/sd-comparison/00001-2961182060.png) | ![00002-2961182060.png](images/sd-comparison/00002-2961182060.png) | ![00003-2961182060.png](images/sd-comparison/00003-2961182060.png) | ![00004-2961182060.png](images/sd-comparison/00004-2961182060.png) | ![00005-2961182060.png](images/sd-comparison/00005-2961182060.png) | ![00006-2961182060.png](images/sd-comparison/00006-2961182060.png) | ![00007-2961182060.png](images/sd-comparison/00007-2961182060.png) | ![00008-2961182060.png](images/sd-comparison/00008-2961182060.png) | ![00009-2961182060.png](images/sd-comparison/00009-2961182060.png) | ![00010-2961182060.png](images/sd-comparison/00010-2961182060.png) | ![00011-2961182060.png](images/sd-comparison/00011-2961182060.png) | ![00012-2961182060.png](images/sd-comparison/00012-2961182060.png) |

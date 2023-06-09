@@ -2,7 +2,7 @@
 
 ## Configuration
 * Model [v1-5-pruned-emaonly.ckpt](https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt)
-* positive prompt: "profile photo fof a cute cat"
+* positive prompt: "profile photo of a cute cat"
 * No negative prompt
 * CFG scale 7
 * Seed 2961182060

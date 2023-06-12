@@ -26,6 +26,5 @@ There is no *best model*. There are different models for different purposes. Som
 |[Stable Diffusion 2.1](https://huggingface.co/stabilityai/stable-diffusion-2-1)| Allrounder, Stability AI's improvement on version 2.0 |![img]()|
 |[Anything v3](https://huggingface.co/Linaqruf/anything-v3.0)| The go-to model for anime art|![img]()|
 |[Anything v5](https://huggingface.co/stablediffusionapi/anything-v5)| The newer version ov Anything v3, specialized on anime art |![img]()|
-|[Realistic Vision V2.0](https://civitai.com/models/4201/realistic-vision-v20)| Produces great photoreaslistic images, especially portraits |![img]()|
-|[Dreamshaper](https://civitai.com/models/4384/dreamshaper)| Specialized on fantasy art |![img]()|
-
+|[Realistic Vision V2.0](https://civitai.com/models/4201/realistic-vision-v20)| produces realistic but not photorealistic images that match the text prompt. It can be used for creating landscapes, portraits, animals, objects, etc. |![img]()|
+|[Dreamshaper](https://civitai.com/models/4384/dreamshaper)| creates beautiful digital art with an illustration style. It can be used for creating fantasy scenes, abstract art, surreal images, etc. |![img]()|

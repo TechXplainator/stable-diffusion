@@ -1,11 +1,11 @@
 # Install and run Stable Diffusion Web UI (Automatic1111)
 
-   - [Install Stable Diffusion Web UI on Mac](#Install-Stable-Diffusion-Web-UI-on-Mac)
-   - [Run Stable Diffusion Web UI on Mac](#Run-Stable-Diffusion-Web-UI-on-Mac)
-   - [End Stable Diffusion Web UI on Mac](#End-Stable-Diffusion-Web-UI-on-Mac)
-   - [Update Stable Diffusion Web UI on Mac](#Update-Stable-Diffusion-Web-UI-on-Mac)
-  - [Installation Guides for other Operating Systems](#Installation-Guides-for-other-Operating-Systems)
-
+## Table of Contents
+   - [Install Stable Diffusion Web UI on Mac](#install-stable-diffusion-web-ui-on-mac---back-to-top-↑)
+   - [Run Stable Diffusion Web UI on Mac](#run-stable-diffusion-web-ui-on-mac)
+   - [End Stable Diffusion Web UI on Mac](#end-stable-diffusion-web-ui-on-mac)
+   - [Update Stable Diffusion Web UI on Mac](#update-stable-diffusion-web-ui-on-mac)
+  - [Installation Guides for other Operating Systems](#installation-guides-for-other-operating-systems)
 
 
 ## Install Stable Diffusion Web UI on Mac
@@ -65,6 +65,8 @@ Now your PATH variable is updated to include the Homebrew binary directory, and 
 
 Congratulations! You have successfully installed Homebrew on your Mac. You can now use Homebrew to install various packages and software on your machine.
 
+[Back to top &#8593;](##table-of-contents)
+
 ### Step 2 - Use Homebrew to Install Required Applications
 
 Run the the following command in your terminal app:
@@ -87,7 +89,11 @@ This instructs Homebrew to download and install the following packages on your M
 
 6. `wget`: Wget is a command-line utility for downloading files from the web. It supports various protocols, including HTTP, HTTPS, and FTP, and provides features like recursive downloading, resuming interrupted downloads, and downloading files in the background.
 
+[Back to top &#8593;](##table-of-contents)
+
 ### Step 3 - Install Stable Diffusion Web UI
+
+[Back to top &#8593;](##table-of-contents)
 
 Stable Diffusion Web UI can be found in a GitHub repository called [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui). To install it locally on your mac, you must clone this GitHub repository by following these steps:
 To clone the repository "stable-diffusion-webui" on your Mac, you can follow these steps:
@@ -112,6 +118,8 @@ To clone the repository "stable-diffusion-webui" on your Mac, you can follow the
 
 Now you have successfully cloned the "stable-diffusion-webui" repository to your Mac. You can navigate to the cloned repository using the `cd` command and explore the files and folders within it.
 
+[Back to top &#8593;](##table-of-contents)
+
 ### Download the Model
 
 1. Download Stable Diffusion model version 1.5 by clicking on [this link](https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt)
@@ -121,6 +129,8 @@ Now you have successfully cloned the "stable-diffusion-webui" repository to your
 > stable-diffusion-webui/models/Stable-diffusion
 
 Congratulations! You have successfully installed Stable Diffusion Web UI on your mac and you're now ready to start generating images.
+
+[Back to top &#8593;](##table-of-contents)
 
 ## Run Stable Diffusion Web UI on Mac
 
@@ -142,6 +152,8 @@ Congratulations! You have successfully installed Stable Diffusion Web UI on your
 
 4. Copy the URL provided to you in the terminal app and paste it in a browser. Pythom will always generate the same URL. You can therefore save it as a bookmark in your browser. However, it will only run if the virtual environment is active.
 
+[Back to top &#8593;](##table-of-contents)
+
 ## End Stable Diffusion Web UI on Mac
 
 Closing the browser window for Stable Diffusion Web UI is not sufficient. The virtual environment will keep running and consume resources. You will have to terminate the virtual environment session by following these steps:
@@ -154,6 +166,8 @@ Closing the browser window for Stable Diffusion Web UI is not sufficient. The vi
    CONTROL + C
    ```
 This will interrupt the viertual environment session.
+
+[Back to top &#8593;](##table-of-contents)
 
 ## Update Stable Diffusion Web UI on Mac
 
@@ -175,9 +189,13 @@ To update Stable Diffusion Web UI, you need to pull the latest changes from GitH
 
    This will update your local copy of Stable Diffusion Web UI with the latest changes.
 
+[Back to top &#8593;](##table-of-contents)
+
 ## Installation Guides for other Operating Systems
 
 - [Installation guide for Windows](https://github.com/AUTOMATIC1111/stable-diffusion-webui#automatic-installation-on-windows)
 - [Installation guide for Linux](https://github.com/AUTOMATIC1111/stable-diffusion-webui#automatic-installation-on-linux)
+
+[Back to top &#8593;](##table-of-contents)
 
 

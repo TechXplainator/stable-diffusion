@@ -30,7 +30,7 @@ This command will download and run the Homebrew installation script.
 
 5. Once the installation is complete, you should see a message indicating that Homebrew has been successfully installed. 
 
-   After installing Homebrew on your Mac, you need to adjust your PATH environment variable to ensure that Homebrew commands are recognized and accessible from any directory in the Terminal. You must do that by copy-and-pasting the command that you are given in your prompt ![homebrew-path](images/homebrew-adjust-path.png).
+   After installing Homebrew on your Mac, you need to adjust your PATH environment variable to ensure that Homebrew commands are recognized and accessible from any directory in the Terminal. You must do that by copy-and-pasting the command that you are given in your prompt, and hit ENTER: ![homebrew-path](images/homebrew-adjust-path.png).
 
 [Back to top &#8593;](#table-of-contents)
 

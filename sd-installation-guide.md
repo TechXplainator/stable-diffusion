@@ -28,44 +28,11 @@ This command will download and run the Homebrew installation script.
 
 4. The installation process may take a few minutes. It will download and install the necessary files and dependencies.
 
-5. Once the installation is complete, you should see a message indicating that Homebrew has been successfully installed.
+5. Once the installation is complete, you should see a message indicating that Homebrew has been successfully installed. 
 
+   After installing Homebrew on your Mac, you need to adjust your PATH environment variable to ensure that Homebrew commands are recognized and accessible from any directory in the Terminal. You must do that by copy-and-pasting the command that you are given in your prompt ![homebrew-path](images/homebrew-adjust-path.png).
 
-After installing Homebrew on your Mac, you may need to adjust your PATH environment variable to ensure that Homebrew commands are recognized and accessible from any directory in the Terminal. Here's how you can do it:
-
-1. Open the Terminal application.
-
-2. Run the following command to open the Bash configuration file in a text editor:
-
-   ```
-   open ~/.bash_profile
-   ```
-
-   If you are using a different shell, such as Zsh, you may need to open a different configuration file. For Zsh, you can use `~/.zshrc` instead of `~/.bash_profile`.
-
-3. The configuration file will open in your default text editor. Add the following line at the end of the file:
-
-   ```
-   export PATH="/usr/local/bin:$PATH"
-   ```
-
-   This line adds the Homebrew binary directory to the beginning of your PATH variable, ensuring that Homebrew commands take precedence over system commands with the same name.
-
-4. Save the file and close the text editor.
-
-5. In the Terminal, run the following command to apply the changes to your current session:
-
-   ```
-   source ~/.bash_profile
-   ```
-
-   If you are using Zsh or a different shell, use `source ~/.zshrc` instead.
-
-Now your PATH variable is updated to include the Homebrew binary directory, and you should be able to use Homebrew commands from any directory in the Terminal. You can verify this by running `brew doctor` or any other Homebrew command to see if it executes successfully.
-
-Congratulations! You have successfully installed Homebrew on your Mac. You can now use Homebrew to install various packages and software on your machine.
-
-[Back to top &#8593;](##table-of-contents)
+[Back to top &#8593;](#table-of-contents)
 
 ### Step 2 - Use Homebrew to Install Required Applications
 
@@ -89,11 +56,11 @@ This instructs Homebrew to download and install the following packages on your M
 
 6. `wget`: Wget is a command-line utility for downloading files from the web. It supports various protocols, including HTTP, HTTPS, and FTP, and provides features like recursive downloading, resuming interrupted downloads, and downloading files in the background.
 
-[Back to top &#8593;](##table-of-contents)
+[Back to top &#8593;](#table-of-contents)
 
 ### Step 3 - Install Stable Diffusion Web UI
 
-[Back to top &#8593;](##table-of-contents)
+[Back to top &#8593;](#table-of-contents)
 
 Stable Diffusion Web UI can be found in a GitHub repository called [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui). To install it locally on your mac, you must clone this GitHub repository by following these steps:
 To clone the repository "stable-diffusion-webui" on your Mac, you can follow these steps:
@@ -118,7 +85,7 @@ To clone the repository "stable-diffusion-webui" on your Mac, you can follow the
 
 Now you have successfully cloned the "stable-diffusion-webui" repository to your Mac. You can navigate to the cloned repository using the `cd` command and explore the files and folders within it.
 
-[Back to top &#8593;](##table-of-contents)
+[Back to top &#8593;](#table-of-contents)
 
 ### Download the Model
 
@@ -130,7 +97,7 @@ Now you have successfully cloned the "stable-diffusion-webui" repository to your
 
 Congratulations! You have successfully installed Stable Diffusion Web UI on your mac and you're now ready to start generating images.
 
-[Back to top &#8593;](##table-of-contents)
+[Back to top &#8593;](#table-of-contents)
 
 ## Run Stable Diffusion Web UI on Mac
 
@@ -152,7 +119,7 @@ Congratulations! You have successfully installed Stable Diffusion Web UI on your
 
 4. Copy the URL provided to you in the terminal app and paste it in a browser. Pythom will always generate the same URL. You can therefore save it as a bookmark in your browser. However, it will only run if the virtual environment is active.
 
-[Back to top &#8593;](##table-of-contents)
+[Back to top &#8593;](#table-of-contents)
 
 ## End Stable Diffusion Web UI on Mac
 
@@ -167,7 +134,7 @@ Closing the browser window for Stable Diffusion Web UI is not sufficient. The vi
    ```
 This will interrupt the viertual environment session.
 
-[Back to top &#8593;](##table-of-contents)
+[Back to top &#8593;](#table-of-contents)
 
 ## Update Stable Diffusion Web UI on Mac
 
@@ -189,13 +156,13 @@ To update Stable Diffusion Web UI, you need to pull the latest changes from GitH
 
    This will update your local copy of Stable Diffusion Web UI with the latest changes.
 
-[Back to top &#8593;](##table-of-contents)
+[Back to top &#8593;](#table-of-contents)
 
 ## Installation Guides for other Operating Systems
 
 - [Installation guide for Windows](https://github.com/AUTOMATIC1111/stable-diffusion-webui#automatic-installation-on-windows)
 - [Installation guide for Linux](https://github.com/AUTOMATIC1111/stable-diffusion-webui#automatic-installation-on-linux)
 
-[Back to top &#8593;](##table-of-contents)
+[Back to top &#8593;](#table-of-contents)
 
 

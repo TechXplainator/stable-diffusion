@@ -6,6 +6,8 @@
  ## How To Guides
  - [Install and run Stable Diffusion Web UI (Automatic1111) ](sd-installation-guide.md)
 
+ - [Install ControlNet) ](install-controlnet.md)
+
 
   ## Stable Diffusion Samplers
  - [Comparison of different Stable Diffusion sampling methods](sampler-comparison.md)

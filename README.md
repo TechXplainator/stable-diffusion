@@ -11,3 +11,7 @@
  - [Comparison of different Stable Diffusion sampling methods](sampler-comparison.md)
 
 
+ ## Model Overview
+ [Model Overview](model-overview.md)
+
+

@@ -14,23 +14,20 @@
 
 To install [Homebrew](https://brew.sh/index) on a Mac, you can follow these steps:
 
-1. Open the Terminal application. You can find it in the Applications folder, under the Utilities subfolder, or you can use Spotlight search (press Command + Space and type "Terminal").
+1. Open the Terminal application. You can find it in the Applications folder under the *Utilities* subfolder. Alternatively you can use Spotlight search (press Command + Space and type "Terminal").
 
-2. In the Terminal, paste the following command and press Enter:
+2. In the Terminal, paste the following command and press *Enter*. This command will download and run the Homebrew installation script.
 
-```
+```markdown
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-This command will download and run the Homebrew installation script.
 
-3. The script will prompt you to continue with the installation. It will ask for your password, as it needs administrator privileges to install Homebrew. Type your password (you won't see it as you type) and press Enter.
-
-4. The installation process may take a few minutes. It will download and install the necessary files and dependencies.
+3. The script will prompt you to continue with the installation. It will ask for your password, as it needs administrator privileges to install Homebrew. Type your password (you won't see it as you type) and press *Enter*. The installation process may take a few minutes. It will download and install the necessary files and dependencies.
 
 5. Once the installation is complete, you should see a message indicating that Homebrew has been successfully installed. 
 
-   After installing Homebrew on your Mac, you need to adjust your PATH environment variable to ensure that Homebrew commands are recognized and accessible from any directory in the Terminal. You must do that by copy-and-pasting the command that you are given in your prompt, and hit ENTER: ![homebrew-path](images/homebrew-adjust-path.png).
+6. After installing Homebrew on your Mac, you need to adjust your PATH environment variable to ensure that Homebrew commands are recognized and accessible from any directory in the Terminal. You must do that by copy-and-pasting the command that you are given in your prompt, and hit ENTER: ![homebrew-path](images/homebrew-adjust-path.png).
 
 [Back to top &#8593;](#table-of-contents)
 
@@ -38,7 +35,7 @@ This command will download and run the Homebrew installation script.
 
 Run the the following command in your terminal app:
 
- ```
+ ```markdown
  brew install cmake protobuf rust python@3.10 git wget
   ```
 
@@ -62,20 +59,21 @@ This instructs Homebrew to download and install the following packages on your M
 
 [Back to top &#8593;](#table-of-contents)
 
-Stable Diffusion Web UI can be found in a GitHub repository called [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui). To install it locally on your mac, you must clone this GitHub repository by following these steps:
-To clone the repository "stable-diffusion-webui" on your Mac, you can follow these steps:
+Stable Diffusion Web UI can be found in a GitHub repository called [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui). 
+
+To install it locally on your mac, you must **clone** this GitHub repository by following these steps:
 
 1. Open the Terminal application on your Mac.
 
 2. Navigate to the directory where you want to clone the repository. You can change directories using the `cd` command. For example, to navigate to your "Documents" folder, you can use the following command:
 
-   ```
+   ```markdown
    cd Documents
    ```
 
 3. Once you are in the desired directory, run the following command to clone the repository:
 
-   ```
+   ```markdown
    git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui
    ```
 
@@ -104,14 +102,14 @@ Congratulations! You have successfully installed Stable Diffusion Web UI on your
 1. Open the Terminal application on your Mac.
 
 2. Navigate to the directory where you want repository was cloned. You can change directories using the `cd` command. For example, to navigate to your "stable-diffusion-webui" folder, you can use the following command:
-
-   ```
+ 
+   ```markdown
    cd stable-diffusion-webui
    ```
 
 3. Once you are in the desired directory, run the following command to start Stable Diffusion Web UI:
 
-   ```
+   ```markdown
    ./webui.sh
    ```
 
@@ -127,11 +125,7 @@ Closing the browser window for Stable Diffusion Web UI is not sufficient. The vi
 
 1. Go back to the Terminal application on your Mac (which should still be running).
 
-2. Press the following key combination on your keyboard:
-
-   ```
-   CONTROL + C
-   ```
+2. Press the key combination *CONTROL + C* on your keyboard. 
 This will interrupt the viertual environment session.
 
 [Back to top &#8593;](#table-of-contents)
@@ -144,13 +138,13 @@ To update Stable Diffusion Web UI, you need to pull the latest changes from GitH
 
 2. Navigate to the directory where you want repository was cloned. You can change directories using the `cd` command. For example, to navigate to your "stable-diffusion-webui" folder, you can use the following command:
 
-   ```
+   ```markdwon
    cd stable-diffusion-webui
    ```
 
 3. Once you are in the desired directory, run the following command to start Stable Diffusion Web UI:
 
-   ```
+   ``` markdown
    git pull
    ```
 

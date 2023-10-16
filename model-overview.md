@@ -78,6 +78,6 @@ I'd say that, in general, [Hugging Face](https://huggingface.co/models) is the t
 
 ## Conclusion
 
-You might assume that opting for newer Stable Diffusion versions is the way to go. However, taking into account all the factors we've talked about, my suggestion for beginners is to start with Stable Diffusion base model version 1.5 or its derivatives. These models are the simplest to get started with, offering a quick and hassle-free setup, relatively small size, and they produce excellent images.
+You might assume that opting for newer Stable Diffusion versions is the way to go. However, taking into account all the factors we've talked about, my suggestion for beginners is to **start with Stable Diffusion base model version 1.5 or its derivatives**. These models are the simplest to get started with, offering a quick and hassle-free setup, relatively small size, and they produce excellent images.
 
 As you gain more experience, you can then consider transitioning to version 2 or SDXL.

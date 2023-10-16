@@ -1,4 +1,4 @@
-# Overview of Stable Diffusion Models
+# Stable Diffusion Models
 
 You've set up the Stable Diffusion Web UI locally, and now you're deciding on which model to use. For beginners, I suggest starting with a version 1 model. But what does that entail? What are the different model versions, and which one suits specific use cases? 
 

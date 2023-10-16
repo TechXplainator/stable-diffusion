@@ -53,13 +53,20 @@ These are some of the models that I have been using.
 
 Depending on your choice of model, there might be some extra steps involved in using it.
 
+### Installing Generation 1 Models
+
 Generation 1 models are the simplest to employ with Stable Diffusion Web UI from AUTOMATIC1111. You download these models and place them in a dedicated model folder, refresh the UI, and you're ready to start generating images. When I mention "file," I'm referring to a checkpoint or safe tensors file.
 - [Stable DIffusion 1.4](https://huggingface.co/CompVis/stable-diffusion-v-1-4-original) ([sd-v1-4.ckpt](https://huggingface.co/CompVis/stable-diffusion-v-1-4-original/resolve/main/sd-v1-4.ckpt))
 - [Stable Diffusion 1.5](https://huggingface.co/runwayml/stable-diffusion-v1-5) ([v1-5-pruned-emaonly.ckpt](https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt))
 
+### Installing Generation 2 Models 
 Generation 2 models require more steps. For example, the base model Stable Diffusion 2.1 requires downloading a configuration file, renaming it to match the checkpoint file's name, and putting both files in the model folder for Stable Diffusion Web UI.
 - [Stable Diffusion 2.0](https://huggingface.co/stabilityai/stable-diffusion-2) ([768-v-ema.ckpt](https://huggingface.co/stabilityai/stable-diffusion-2/resolve/main/768-v-ema.ckpt))
 - [Stable Diffusion 2.1](https://huggingface.co/stabilityai/stable-diffusion-2-1) ([v2-1_768-ema-pruned.ckpt](https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt))
+
+You can download the configuration file from [here](https://github.com/Stability-AI/stablediffusion/raw/main/configs/stable-diffusion/v2-inference-v.yaml). After downloading it, you must change the filename of the configuration file (which is a `.yml` file) to the filename of the model. So for model file `v2-1_768-ema-pruned.ckpt`, you must rename the configuration file to `v2-1_768-ema-pruned.yml` and put both files in the [model folder](sd-installation-guide.md#download-the-model) for Stable Diffusion Web UI. 
+
+### Installing SDXL
 
 As for SDXL, it becomes even more complex. So far, I have not been able to run SDXL locally on my Mac without issues, especially since I only have 8GB of RAM. I have been running it on Google Colab instead.
 

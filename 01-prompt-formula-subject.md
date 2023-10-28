@@ -30,7 +30,7 @@ In this formula:
 ## Examples
 
 
-| Markdown Code Block | Image | Bullet Point List |
+| Prompt | Image | Prompt Breakdown |
 | ------------------- | ----- | ------------------ |
 | A cute black cat with blue eyes wearing a red collar lying on a table | ![cute-black-cat](./images/prompt-formula/subject/cute-black-cat.png) | <ul><li><strong>Subject:</strong> cat</li><li><strong>Adjective:</strong> cute, black, with blue eyes</li><li><strong>Location:</strong> lying on a table</li><li><strong>Action or Accessory:</strong> wearing a red collar</li></ul> |
 | A cheerful young woman with long, curly hair holding a bouquet of colorful flowers in a garden | ![cheeerful young woman in garden](./images/prompt-formula/subject/cheerful-young-woman-in-garden.png) | <ul><li><strong>Subject:</strong> woman</li><li><strong>Adjective:</strong> cheerful, young, with long curly hair</li><li><strong>Location:</strong> in a garden</li><li><strong>Action or Accessory:</strong> holding a bouquet of colorful flowers</li></ul> |

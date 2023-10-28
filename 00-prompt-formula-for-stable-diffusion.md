@@ -6,4 +6,4 @@ Creating a good prompt is crucial. In fact, there are numerous websites where pe
 
 For the best results in generating images, a good prompt needs to include specific elements out of certain categories:
 
-- 
+- [Subject](01-prompt-formula-subject.md)

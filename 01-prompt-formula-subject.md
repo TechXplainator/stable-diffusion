@@ -44,3 +44,4 @@ In this formula:
 | An Owl | ![owl](./images/prompt-formula/subject/owl.png) | <ul><li><strong>Subject:</strong> Owl</li><li><strong>Adjective:</strong> Not specified</li><li><strong>Location:</strong> Not specified</li><li><strong>Action or Accessory:</strong> Not specified</li></ul> |
 | Busy city street, filled with rushing commuters | ![busy city](./images/prompt-formula/subject/city-with-commuters.png) | <ul><li><strong>Subject:</strong> City street</li><li><strong>Adjective:</strong> Busy</li><li><strong>Location:</strong> Not specified</li><li><strong>Action or Accessory:</strong> Filled with rushing commuters</li></ul> |
 
+

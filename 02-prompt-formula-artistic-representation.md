@@ -2,7 +2,7 @@
 
 "Forms of artistic representation" refers to the different ways artists create and express their ideas. Ask yourself: do you want a photo, an oil painting, a graffiti, an illustration or a 3D rendering?
 
-Our [ini prompt formula](./01-prompt-formula-subject.md#prompt-formula-subject) can now be extended to:
+Our [initial prompt formula](./01-prompt-formula-subject.md#prompt-formula-subject) can now be extended to:
 
 ```markdown
 <form of artistic representation><Adjective> Subject <Action or Accessory> <Location>

@@ -8,3 +8,4 @@ For the best results in generating images, a good prompt needs to include specif
 
 1. [Subject](01-prompt-formula-subject.md)
 2. [Form of artistic representation](02-prompt-formula-artistic-representation.md)
+3. [Style](03-prompt-formula-style.md)

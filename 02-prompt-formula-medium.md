@@ -5,7 +5,7 @@
 Our [initial prompt formula](./01-prompt-formula-subject.md#prompt-formula-subject) can now be extended to:
 
 ```markdown
-<Artistic medium><Adjective> Subject <Action or Accessory> <Location>
+<Artistic medium> <Adjective> Subject <Action or Accessory> <Location>
 ```
 
 ## Artistic Mediums

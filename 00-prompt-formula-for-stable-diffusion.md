@@ -7,5 +7,16 @@ Creating a good prompt is crucial. In fact, there are numerous websites where pe
 For the best results in generating images, a good prompt needs to include specific elements out of certain categories:
 
 1. [Subject](01-prompt-formula-subject.md)
-2. [Form of artistic representation](02-prompt-formula-artistic-representation.md)
-3. [Style](03-prompt-formula-style.md)
+2. [Artistic Medium](02-prompt-formula-medium.md)
+3. [Artistic Style](03-prompt-formula-style.md)
+
+These elements collectively result in the following prompt formula:
+
+```markdown
+```
+
+In this formula:
+
+- All the elements enclosed in angle brackets <...> are optional. This means you can choose whether or not to include them in your prompt.
+- The only mandatory element is the Subject, so you must include it to describe the main focus of your image.
+- The order of elements is not fixed, allowing you to place Adjectives, Actions or Accessories, and Locations before or after the Subject. This flexibility lets you craft your prompt in a way that best suits the context or your creative vision.

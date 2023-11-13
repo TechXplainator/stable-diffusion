@@ -1,4 +1,4 @@
-# Prompt Formula: Subject
+# Subject of the Image and its Description
 
 The subject is what you want to see in the generated image. Ask yourself: do I want an image of a person? An animal or perhaps a landscape? 
 
@@ -21,12 +21,6 @@ These questions collectively result in the following prompt formula:
 - **Action or Accessory (Optional)**: This is where you can include an action or an item that's related to the subject, but it's not required.
 - **Location (Optional)**: If you want to specify where the scene takes place, you can use this element. However, it's also optional.
 
-In this formula:
-
-- All the elements enclosed in angle brackets <...> are optional. This means you can choose whether or not to include them in your prompt.
-- The only mandatory element is the Subject, so you must include it to describe the main focus of your image.
-- The order of elements is not fixed, allowing you to place Adjectives, Actions or Accessories, and Locations before or after the Subject. This flexibility lets you craft your prompt in a way that best suits the context or your creative vision.
-
 ## Examples
 
 
@@ -43,5 +37,3 @@ In this formula:
 | Racing down the winding mountain road, a sleek sports car | ![sports car](./images/prompt-formula/subject/sports-car.png) | <ul><li><strong>Subject:</strong> Sports car</li><li><strong>Adjective:</strong> Sleek</li><li><strong>Location:</strong> Not specified</li><li><strong>Action or Accessory:</strong> Racing down the winding mountain road</li></ul> |
 | An Owl | ![owl](./images/prompt-formula/subject/owl.png) | <ul><li><strong>Subject:</strong> Owl</li><li><strong>Adjective:</strong> Not specified</li><li><strong>Location:</strong> Not specified</li><li><strong>Action or Accessory:</strong> Not specified</li></ul> |
 | Busy city street, filled with rushing commuters | ![busy city](./images/prompt-formula/subject/city-with-commuters.png) | <ul><li><strong>Subject:</strong> City street</li><li><strong>Adjective:</strong> Busy</li><li><strong>Location:</strong> Not specified</li><li><strong>Action or Accessory:</strong> Filled with rushing commuters</li></ul> |
-
-

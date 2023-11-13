@@ -7,7 +7,7 @@ decisions. It refers to the distinctive way in which an image is represented.
 Our prompt formula can now be extended to:
 
 ```markdown
-<Artistic style><Artistic medium><Adjective> Subject <Action or Accessory> <Location>
+<Artistic medium><Adjective> Subject <Action or Accessory> <Location><Artistic style>
 ```
 
 

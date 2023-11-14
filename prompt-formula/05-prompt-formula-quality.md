@@ -1,4 +1,4 @@
-# Image Quality
+# Step 5 in Building a Prompt Formula:Image Quality
 
 Image quality pertains to the level of detail in a picture. Like many AI image generation tools, including Stable Diffusion, there are distinct parameters that impact quality. Specifically, you can determine the resolution and size of an image by adjusting them. Yet, based on my experience, there are specific "magic words" associated with image quality that can enhance what the AI produces. While these won't affect image size or resolution, they will enhance the visual appeal. 
 

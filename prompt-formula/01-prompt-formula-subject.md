@@ -1,4 +1,4 @@
-# Subject of the Image and its Description
+# Step 1 in Building a Prompt Formula: The Subject
 
 The subject is what you want to see in the generated image. Ask yourself: do I want an image of a person? An animal or perhaps a landscape? 
 

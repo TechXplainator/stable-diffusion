@@ -1,4 +1,4 @@
-# Artistic Style
+# Step 3 in Building a Prompt Formula: Artistic Style
 
 Style in art refers to an artist’s unique combination of techniques, processes, and
 decisions. It refers to the distinctive way in which an image is represented.

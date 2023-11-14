@@ -1,4 +1,4 @@
-# Prompt Formula: Artistic medium
+# Step 2 in Building a Prompt Formula: Artistic medium
 
 "Artistic medium" refers to the materials and techniques an artist uses to create their work, like painting, photograph, or drawing. It's essentially the chosen form through which artistic expression takes shape. Ask yourself: do you want a photo, an oil painting, a graffiti, an illustration or a 3D rendering?
 

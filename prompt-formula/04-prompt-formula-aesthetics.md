@@ -1,4 +1,4 @@
-# Aesthetics
+# Step 4 in Building a Prompt Formula: Aesthetics
 
 Aesthetics involve the visual appeal and style of an artwork, including choices in composition, color, form, and overall design. It explores the harmonious integration of elements to evoke emotions, convey messages, and create a visually pleasing experience for the viewer.
 

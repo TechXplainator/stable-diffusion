@@ -38,6 +38,7 @@ Within the [artistic medium](/02-prompt-formula-medium.md) of photography, there
 - **Monochrome**: Monochrome photography is a style where pictures are captured using shades of a single color, usually black and white or sepia. It creates a classic, timeless look by emphasizing light, shadow, and contrast without the distraction of multiple colors.
 - **High-Speed Photography**: Captures rapidly occurring events, such as splashing liquids or fast-moving objects, by using high-speed shutter settings.
 - **Long Exposure:** A photograph taken with a slow shutter speed, capturing motion blur in moving subjects or creating a smooth, flowing effect in water or clouds.
+- **Double Exposure:** Double exposure is a photography technique where two different images are combined into a single frame. It creates a unique and artistic effect, blending elements from both images. This can result in surreal or ghostly visuals, as if two separate scenes are overlapping in one photograph.
 
 ## Examples
 

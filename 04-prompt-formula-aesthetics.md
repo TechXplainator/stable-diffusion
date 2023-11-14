@@ -5,7 +5,7 @@ Aesthetics involve the visual appeal and style of an artwork, including choices 
 Our prompt formula can now be extended to:
 
 ```markdown
-<Artistic medium> <Adjective> Subject <Action or Accessory> <Location> Artistic style> <Aesthetics>
+<Artistic medium> <Adjective> Subject <Action or Accessory> <Location> <Artistic style> <Aesthetics>
 ```
 
 Let's break down some of the aesthetic elements that can impact image generation.
@@ -86,4 +86,5 @@ he mood of an image refers to the overall emotional atmosphere it conveys. It ca
 | Photo of an old man, soft lighting | ![Man](./images/prompt-formula/aesthetics/man.png) | <ul><li><strong>Subject:</strong> A Man </li><li><strong>Adjective:</strong> Old </li><li><strong>Location:</strong> Not specified </li><li><strong>Action or Accessory:</strong> Not specified </li><li><strong>Artistic medium:</strong> Photo </li><li><strong>Artistic style:</strong> Not specified </li><li><strong>Aesthetics:</strong> Soft lighting </li></ul> |
 | photo of a cute cat on an empty floor, illuminated by a spotlight | ![cat in spotlight](./images/prompt-formula/aesthetics/cat.png) | <ul><li><strong>Subject:</strong> A cat </li><li><strong>Adjective:</strong> Cute </li><li><strong>Location:</strong> On an empty floor </li><li><strong>Action or Accessory:</strong> Not specified </li><li><strong>Artistic medium:</strong> Photo </li><li><strong>Artistic style:</strong> Not specified </li><li><strong>Aesthetics:</strong> Illumniated by a spotlight </li></ul> |
 | A daisy, high contrast | ![daisy](./images/prompt-formula/aesthetics/daisy.png) | <ul><li><strong>Subject:</strong> Daisy </li><li><strong>Adjective:</strong> Not specified </li><li><strong>Location:</strong> Not specified </li><li><strong>Action or Accessory:</strong> Not specified </li><li><strong>Artistic medium:</strong> Photo </li><li><strong>Artistic style:</strong> Not specified </li><li><strong>Aesthetics:</strong> High contrast </li></ul> |
-
+| A bar filled with people, neon light, gloomy atmosphere | ![bar](./images/prompt-formula/aesthetics/bar.png) | <ul><li><strong>Subject:</strong> Bar </li><li><strong>Adjective:</strong> Not specified </li><li><strong>Location:</strong> Not specified </li><li><strong>Action or Accessory:</strong> Filled with people </li><li><strong>Artistic medium:</strong> Not specified </li><li><strong>Artistic style:</strong> Not specified </li><li><strong>Aesthetics:</strong> Neon light, gloomy atmosphere </li></ul> |
+| A cute pink unicorn standing in a field of roses, soft lighting, whimsical, Studio Ghibli| ![unicorn](./images/prompt-formula/aesthetics/unicorn.png) | <ul><li><strong>Subject:</strong> Unicorn </li><li><strong>Adjective:</strong> Cute, pink </li><li><strong>Location:</strong> Sn a field of roses </li><li><strong>Action or Accessory:</strong> Standing </li><li><strong>Artistic medium:</strong> Not specified </li><li><strong>Artistic style:</strong> Studio Ghibli </li><li><strong>Aesthetics:</strong> soft lighting, whimsical </li></ul> |

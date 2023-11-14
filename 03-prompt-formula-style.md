@@ -10,7 +10,7 @@ Our prompt formula can now be extended to:
 <Artistic medium> <Adjective> Subject <Action or Accessory> <Location> <Artistic style>
 ```
 
-
+## Artistic Styles for Diverse Art Forms
 Some popular example for artistic styles are:
 
 - **Realism, Realistic style**: A focus on mimicking the appearance and nature of the subject. It is recognizable by fine rendering, muted colors, intricate detail, and accurate fundamentals. Famous artists: Gustave Courbet, Jean-François Millet, Winslow Homer.
@@ -29,7 +29,15 @@ Yet, considering the significant variations within artistic styles, I've found t
 
 You can combine and repeat elements, such as merging various artistic styles
 
+## Artistic Styles for Photography
 
+Within the [artistic medium](/02-prompt-formula-medium.md) of photography, there are distinct styles that deviate from the more general ones. Some prominent examples include:
+
+- **Color Splash**: A technique where most of an image is in black and white, while a specific portion remains in color. This technique is used to draw attention to a particular subject or element within the photograph by isolating it in color against a monochromatic background. The term "color splash" is often associated with impactful and visually striking images where the selective use of color creates a focal point and emphasizes certain details.
+- **Tilt Shift**: Tilt-shift is a photography technique that makes real scenes look like miniature models. It's achieved by adjusting the camera lens to control focus and perspective. This creates a shallow depth of field, making some parts blurry and giving the illusion of a tiny, toy-like world.
+- **Monochrome**: Monochrome photography is a style where pictures are captured using shades of a single color, usually black and white or sepia. It creates a classic, timeless look by emphasizing light, shadow, and contrast without the distraction of multiple colors.
+- **High-Speed Photography**: Captures rapidly occurring events, such as splashing liquids or fast-moving objects, by using high-speed shutter settings.
+- **Long Exposure:** A photograph taken with a slow shutter speed, capturing motion blur in moving subjects or creating a smooth, flowing effect in water or clouds.
 
 ## Examples
 
@@ -41,7 +49,11 @@ You can combine and repeat elements, such as merging various artistic styles
 | A lollipop in the style of Vincent van Gogh | ![Lollipop](./images/prompt-formula/style/Lollipop.png) | <ul><li><strong>Subject:</strong> Lollipop</li><li><strong>Adjective:</strong> Not specified </li><li><strong>Location:</strong> Not specified</li><li><strong>Action or Accessory:</strong> Not specified </li><li><strong>Artistic medium:</strong> Not specified </li><li><strong>Artistic style:</strong> in the style of Vincent van Gogh </li></ul> |
 | A cute sparkly little unicorn, Banksy style | ![unicorn](./images/prompt-formula/style/unicorn.png) | <ul><li><strong>Subject:</strong> Unicorn</li><li><strong>Adjective:</strong> cute, sparkly, little </li><li><strong>Location:</strong> Not specified</li><li><strong>Action or Accessory:</strong> Not specified </li><li><strong>Artistic medium:</strong> Not specified </li><li><strong>Artistic style:</strong> Banksy style </li></ul> |
 | Donald Duck walking down the street, as a character in a Wes Anderson movie | ![donald duck](./images/prompt-formula/style/donald-duck.png) | <ul><li><strong>Subject:</strong> Donald Duck </li><li><strong>Adjective:</strong>Not specified </li><li><strong>Location:</strong> Not specified</li><li><strong>Action or Accessory:</strong> Not specified </li><li><strong>Artistic medium:</strong> Not specified </li><li><strong>Artistic style:</strong> As a character in a Wes Anderson Movie </li></ul> |
-| A little fairy flying around in a beautiful tropical garden, in the styles of  Alphonse Mucha and Picasso | ![fairy](./images/prompt-formula/style/fairy.png) | <ul><li><strong>Subject:</strong> Fairy </li><li><strong>Adjective:</strong>Little </li><li><strong>Location:</strong> Not specified</li><li><strong>Action or Accessory:</strong> Not specified </li><li><strong>Artistic medium:</strong> Not specified </li><li><strong>Artistic style:</strong> As a character in a Wes Anderson Movie </li></ul> |
+| A little fairy flying around in a beautiful tropical garden, in the styles of  Alphonse Mucha and Picasso | ![fairy](./images/prompt-formula/style/fairy.png) | <ul><li><strong>Subject:</strong> Fairy </li><li><strong>Adjective:</strong>Little </li><li><strong>Location:</strong> In a beautiful tropical garden </li><li><strong>Action or Accessory:</strong> Flying around </li><li><strong>Artistic medium:</strong> Not specified </li><li><strong>Artistic style:</strong> In the styles of  Alphonse Mucha and Picasso </li></ul> |
+| Photo of construction site, workers, tilt shift effect | ![construction site](./images/prompt-formula/style/construction-site.png) | <ul><li><strong>Subject:</strong> Construction site workers </li><li><strong>Adjective:</strong> Not specified </li><li><strong>Location:</strong> Not specified</li><li><strong>Action or Accessory:</strong> Not specified </li><li><strong>Artistic medium:</strong> Photo </li><li><strong>Artistic style:</strong> tilt shift effect </li></ul> |
+| Color splash photo of a yellow tennis ball in the middle of an empty street | ![tennis ball](./images/prompt-formula/style/tennis-ball.png) | <ul><li><strong>Subject:</strong> Tennis ball </li><li><strong>Adjective:</strong> Not specified </li><li><strong>Location:</strong> In the middle of an empty street</li><li><strong>Action or Accessory:</strong> Not specified </li><li><strong>Artistic medium:</strong> Photo </li><li><strong>Artistic style:</strong> Color splash </li></ul> |
+| High speed photo of a strawberry falling into water | ![Strawberries](./images/prompt-formula/style/strawberry.png) | <ul><li><strong>Subject:</strong> Strawberry </li><li><strong>Adjective:</strong> Not specified </li><li><strong>Location:</strong> Not specified</li><li><strong>Action or Accessory:</strong> Falling into water </li><li><strong>Artistic medium:</strong> Photo </li><li><strong>Artistic style:</strong> High speed </li></ul> |
+| Photo of a busy city street with cars passing buy, long exposure | ![cute-black-cat](./images/prompt-formula/style/city.png) | <ul><li><strong>Subject:</strong> City street </li><li><strong>Adjective:</strong> Busy </li><li><strong>Location:</strong> Not specified </li><li><strong>Action or Accessory:</strong> With cars passing by </li><li><strong>Artistic medium:</strong> Photo </li><li><strong>Artistic style:</strong> Not specified </li><li><strong>Aesthetics:</strong> Long exposure </li></ul> |
 
 
 

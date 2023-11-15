@@ -57,9 +57,15 @@ The reason for separating positive and negative prompts is to provide clearer in
 
 ## 4. Other Factors Affecting your Prompt
 
-So now you understand how you shoud formulate a prompt. You are applying a prompt formula, using weights, using negative prompts, but your image still doesnT look as you want. What is the promplem? what can you do?
+Now that you understand how to construct a prompt — utilizing a prompt formula, incorporating weights, and employing negative prompts — yet your image doesn't quite match your vision, what's the issue? What can you do?
 
-Well, there are a few influencing factors that will play a role in how the image is generated, regardless of how well you craft your prompt. 
+Several influencing factors come into play in how the image is generated, irrespective of how skillfully you formulate your prompt.
+
+- **The model:** The model you pick for making images is crucial for what you create. For instance, if you use a super specific model tuned for Anime, it might not be great at making realistic photos. Always be mindful of the model you choose. You can find more info on models in my detailed explanation here.
+- **Add-ons:** With Stable Diffusion, you can use extensions that impact how your images turn out. Here are a few examples:
+    - **LoRA models:** These are small neural networks specialized in generating specific details like faces, hands, or clothing. Boost your Stable Diffusion results by applying them to a compatible model.
+    - **Refiners:** Specialized models for the final denoising steps in the diffusion process. Apply them to the generated latents from the base model, using the same text prompt, for sharper and more realistic images.
+    - **ControlNet:** This extension lets you control the pose, color, and content of your images using a reference image. Whether mimicking an existing style or crafting custom images, ControlNet gives you more flexibility and precision.
 
 ## 5. Final Thoughts
 

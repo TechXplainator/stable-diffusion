@@ -30,19 +30,7 @@ To gain a deeper understanding of each of these elements, we will gradually cons
 
 ## 2. Using Weights in Your Prompts
 
-Weights for prompts are a way of controlling how much influence each word or phrase has on the image generation process. By adding parenthesis and a weight number to a word or phrase, you can increase or decrease its importance. 
-
-For example, if you want to generate an image of a monkey holding ice cream, you can use the prompt "monkey holding ice cream". However, if you want to emphasize the beer more, you can use the prompt "monkey holding (ice cream: 1.5)". 
-
-Conversely, if you want to de-emphasize the ice-cream, you can use the prompt "monkey holding (ice cream: 0.5)".
-
-The weighting system operates within a range of -1 to 1, where 0 is the default weight and 1 is the maximum weight. You can use parentheses to group words or phrases together and apply weights to them. 
-
-For example, if you want to generate an image of a monkey holding ice cream in the style of Vincent Van Gogh, you can use the prompt "monkey holding ice cream (in the style of Vincent Van Gogh: 1.2)". This will increase the weight of the phrase "in the style of Vincent Van Gogh" and make the image resemling more the style of a Van Gogh Painting. 
-
-You can also use nested parentheses to combine weights. For example, if you want to generate an image of a monkey holding ice cream in the style of Vincent Van Gogh, but with more emphasis on the beer, you can use the prompt "monkey holding (a beer:1.4) (in the style of Vincent Van Gogh:1.1)". This will increase the weight of both the word "beer" and the phrase "in the style of Vincent Van Gogh", but more so for the former.
-
-Prompt weighting is a powerful tool that allows you to fine-tune the image generation process and achieve more creative and diverse results. However, it also comes with some risks and limitations. For instance, using too high or too low weights can result in lower quality images or unexpected outcomes. Moreover, some words or phrases may have stronger or weaker effects than others, depending on the model's knowledge and preferences. Therefore, it is advisable to experiment with different weights and see how they affect the image output. You can also use negative prompts to exclude unwanted elements from the image.
+coming soon
 
 
 ## 3. Negative Prompts

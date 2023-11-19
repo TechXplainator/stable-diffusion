@@ -22,18 +22,29 @@ In this formula:
 
 To gain a deeper understanding of each of these elements, we will gradually construct our prompt formula step-by-step:
 
--  [**Step 1**: The subject](/prompt-formula/01-prompt-formula-subject.md)
--  [**Step 2**:Artistic Medium](/prompt-formula/02-prompt-formula-medium.md)
--  [**Step 3**:Artistic Style](/prompt-formula/03-prompt-formula-style.md)
--  [**Step 4**:Aesthetics](/prompt-formula/04-prompt-formula-aesthetics.md)
--  [**Step 5**:Image quality](/prompt-formula/05-prompt-formula-quality.md)
+-  [**Step 1**: The subject](/prompt-writing/01-prompt-formula-subject.md)
+-  [**Step 2**:Artistic Medium](/prompt-writing/02-prompt-formula-medium.md)
+-  [**Step 3**:Artistic Style](/prompt-writing/03-prompt-formula-style.md)
+-  [**Step 4**:Aesthetics](/prompt-writing/04-prompt-formula-aesthetics.md)
+-  [**Step 5**:Image quality](/prompt-writing/05-prompt-formula-quality.md)
 
 ## 2. Using Weights in Your Prompts
 
-coming soon
+Weights for prompts are a way of controlling how much influence each word or phrase has on the image generation process. While it's not a sure thing, weights can help guide Stable Diffusion pay more attention to certain words and pay less attention to others.
 
+The weighting system ranges from 0 to 2. 0 is the minimum weight, and 2 is the maximum weight. If you go above 1, it boosts the importance of a phrase, and going below 1 reduces its significance. Boosting means Stable Diffusion focuses more on the emphasized phrase, increasing the likelihood of it being generated. On the other hand, reducing emphasis means Stable Diffusion pays less attention to the de-emphasized phrase, lowering the chance of it being generated. 
 
-## 3. Negative Prompts
+You can group words or phrases with parentheses and assign weights to them like so.
+
+So, in our image of the cute black cat with blue eyes, initially, Stable Diffusion missed the detail of the red collar. But when I added weight to the phrase "wearing a red collar," Stable Diffusion picked up on it and added the red collar to the image.
+
+You're free to pick any number from 0 to 2 for the weight. Based on my own experience, going beyond 1.7 or below 0.5 can mess up the image.
+
+## 3. Prompt Editing
+
+Prompt editing gives you more control. You can make Stable Diffusion generate specific subjects later in the sampling cycle, switch subjects, or even remove parts of the prompt while generating. Check [this page](/prompt-writing/prompt-editing.md) for more details.
+
+## 4. Negative Prompts
 
 Negative prompts serve to specify what the image should avoid containing, helping you in steering clear of undesired elements or reducing ambiguity in image generation. For instance, to generate an image of a bustling city at night without people, use the negative prompt "people". 
 
@@ -43,13 +54,13 @@ You might wonder: Why have a positive prompt and a negative prompt? Why not incl
 
 The reason for separating positive and negative prompts is to provide clearer instructions to the model. Mixing them can confuse the model, making it more challenging to generate the desired image. By using positive prompts to specify what you want and negative prompts to specify what you don't want, you offer the AI model distinct instructions, leading to improved results.
 
-## 4. Other Factors Affecting your Prompt
+## 5. Other Factors Affecting your Prompt
 
 Now that you understand how to construct a prompt — utilizing a prompt formula, incorporating weights, and employing negative prompts — yet your image doesn't quite match your vision, what's the issue? What can you do?
 
 Several influencing factors come into play in how the image is generated, irrespective of how skillfully you formulate your prompt.
 
-- **The model:** The model you pick for making images is crucial for what you create. For instance, if you use a super specific model tuned for Anime, it might not be great at making realistic photos. Always be mindful of the model you choose. You can find more info on models in my detailed explanation here.
+- **The model:** The model you pick for making images is crucial for what you create. For instance, if you use a super specific model tuned for Anime, it might not be great at making realistic photos. Always be mindful of the model you choose. You can find more info on models and their diffferences [here](/model-overview.md).
 - **Add-ons:** With Stable Diffusion, you can use extensions that impact how your images turn out. Here are a few examples:
     - **LoRA models:** These are small neural networks specialized in generating specific details like faces, hands, or clothing. Boost your Stable Diffusion results by applying them to a compatible model.
     - **Refiners:** Specialized models for the final denoising steps in the diffusion process. Apply them to the generated latents from the base model, using the same text prompt, for sharper and more realistic images.

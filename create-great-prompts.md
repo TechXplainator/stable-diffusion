@@ -40,11 +40,7 @@ So, in our image of the cute black cat with blue eyes, initially, Stable Diffusi
 
 You're free to pick any number from 0 to 2 for the weight. Based on my own experience, going beyond 1.7 or below 0.5 can mess up the image.
 
-## 3. Prompt Editing
-
-Prompt editing gives you more control. You can make Stable Diffusion generate specific subjects later in the sampling cycle, switch subjects, or even remove parts of the prompt while generating. Check [this page](/prompt-writing/prompt-editing.md) for more details.
-
-## 4. Negative Prompts
+## 3. Negative Prompts
 
 Negative prompts serve to specify what the image should avoid containing, helping you in steering clear of undesired elements or reducing ambiguity in image generation. For instance, to generate an image of a bustling city at night without people, use the negative prompt "people". 
 
@@ -53,6 +49,10 @@ You can also apply weights to your negative prompts to emphasise elements that y
 You might wonder: Why have a positive prompt and a negative prompt? Why not include things to avoid in the positive prompt?
 
 The reason for separating positive and negative prompts is to provide clearer instructions to the model. Mixing them can confuse the model, making it more challenging to generate the desired image. By using positive prompts to specify what you want and negative prompts to specify what you don't want, you offer the AI model distinct instructions, leading to improved results.
+
+## 4. Prompt Editing
+
+Prompt editing gives you more control. You can make Stable Diffusion generate specific subjects later in the sampling cycle, switch subjects, or even remove parts of the prompt while generating. Check [this page](/prompt-writing/prompt-editing.md) for more details.
 
 ## 5. Other Factors Affecting your Prompt
 
@@ -65,8 +65,6 @@ Several influencing factors come into play in how the image is generated, irresp
     - **LoRA models:** These are small neural networks specialized in generating specific details like faces, hands, or clothing. Boost your Stable Diffusion results by applying them to a compatible model.
     - **Refiners:** Specialized models for the final denoising steps in the diffusion process. Apply them to the generated latents from the base model, using the same text prompt, for sharper and more realistic images.
     - **ControlNet:** This extension lets you control the pose, color, and content of your images using a reference image. Whether mimicking an existing style or crafting custom images, ControlNet gives you more flexibility and precision.
-
-## 5. Final Thoughts
 
 When generating images using AI, providing a good prompt is essential for obtaining desired results. Here are some rules and tips for describing a good prompt:
 

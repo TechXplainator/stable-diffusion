@@ -2,7 +2,7 @@
 
 Prompt editing allows you to start sampling one picture, but in the middle swap to something else. 
 
-## Start with Phrase 1 and Change to Phrase 2 at Step X
+## Switch Phrases after X Steps
 
 The base syntax is:
 
@@ -21,7 +21,7 @@ a portrait of [Johnny Depp:Idris Elba:16]
 At start, the model will be drawing a portrait of Johnny Depp.
 After step 16, it will switch to drawing a portrait of Idris Elba, continuing from where it stopped with Johnny Depp.
 
-## Add Phrase after X
+## Add Phrase after X Steps
 
 The base syntax is:
 ```markdown
@@ -31,13 +31,13 @@ The base syntax is:
 **Example**: 
 
 ```markdown
-fantasy landscape with a [mountain:lake:15]
+A fantasy landscape [with a lake:15]
 ``````
 ![mountain-lake](/images/prompt-editing/mountain-lake.jpeg)
 
-At start, the model will be generating a fantasy landscape with a mountain. After step 15, it will switch to generating a fantasy landscape with a lake, but continuing where it stopped with the mountains. 
+At start, the model will be generating a fantasy landscape. After step 15, it will switch to generating a fantasy landscape with a lake, but continuing where it stopped with fantasy landscape without the lake. 
 
-## Remove Phrase at X
+## Remove Phrase after X Steps
 
 The base syntax is:
 ```markdown

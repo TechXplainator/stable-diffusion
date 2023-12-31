@@ -1,12 +1,12 @@
 # Install and run Stable Diffusion Web UI (Automatic1111)
 
 ## Table of Contents
-   - [Install Stable Diffusion Web UI on Mac](#install-stable-diffusion-web-ui-on-mac---back-to-top-↑)
-   - [Run Stable Diffusion Web UI on Mac](#run-stable-diffusion-web-ui-on-mac)
-   - [End Stable Diffusion Web UI on Mac](#end-stable-diffusion-web-ui-on-mac)
-   - [Update Stable Diffusion Web UI on Mac](#update-stable-diffusion-web-ui-on-mac)
-  - [Installation Guides for other Operating Systems](#installation-guides-for-other-operating-systems)
-  - [Troubleshooting Guide](#troubleshooting-guide)
+- [Install Stable Diffusion Web UI on Mac](#install-stable-diffusion-web-ui-on-mac---back-to-top-↑)
+- [Run Stable Diffusion Web UI on Mac](#run-stable-diffusion-web-ui-on-mac)
+- [End Stable Diffusion Web UI on Mac](#end-stable-diffusion-web-ui-on-mac)
+- [Update Stable Diffusion Web UI on Mac](#update-stable-diffusion-web-ui-on-mac)
+- [Installation Guides for other Operating Systems](#installation-guides-for-other-operating-systems)
+- [Troubleshooting Guide](#troubleshooting-guide)
 
 
 ## Install Stable Diffusion Web UI on Mac

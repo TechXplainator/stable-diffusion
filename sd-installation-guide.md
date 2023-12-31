@@ -6,6 +6,7 @@
    - [End Stable Diffusion Web UI on Mac](#end-stable-diffusion-web-ui-on-mac)
    - [Update Stable Diffusion Web UI on Mac](#update-stable-diffusion-web-ui-on-mac)
   - [Installation Guides for other Operating Systems](#installation-guides-for-other-operating-systems)
+  - [Troubleshooting Guide](#troubleshooting-guide)
 
 
 ## Install Stable Diffusion Web UI on Mac
@@ -159,4 +160,8 @@ To update Stable Diffusion Web UI, you need to pull the latest changes from GitH
 
 [Back to top &#8593;](#table-of-contents)
 
+## Troubleshooting Guide
 
+If you encounter any difficulties during the installation process, refer to this regularly updated [troubleshooting guide](troubleshooting.md) for assistance.
+
+[Back to top &#8593;](#table-of-contents)

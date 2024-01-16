@@ -41,3 +41,35 @@ If you find a '.git' directory, it means there is an existing Git repository. Yo
 ```bash
 rm -rf .git
 ```
+
+### 2. **Error: "no such file" when typing cd stable-diffusion-webui**
+
+The 'no such file' error typically occurs when the Terminal can't find the specified directory. Here are a few things you can check and try:
+
+1. **Navigate to the right directory:**
+   If you have followed my instructions, the repository will be located in the home-folder. First, confirm you're in your home folder. You can use the tilde (~) to represent your home directory.
+
+   ```bash
+   cd ~
+   ```
+
+   This will open the home folder in your terminal app.
+
+2. **List the contents:**
+   Use the 'ls' command to list the files and folders in your home directory. Check if 'stable-diffusion-webui' is listed.
+
+   ```bash
+   ls
+   ```
+
+   If you see the folder, you should be able to enter it with the 'cd' command:
+
+   ```bash
+   cd stable-diffusion-webui
+   ```
+
+3. **Double-check spelling:**
+   Confirm that the folder name is spelled correctly. Remember, the command is case-sensitive, so make sure the capitalization matches.
+
+4. **Search for download location in Finder:**
+    If challenges persist, launch Finder on your Mac and conduct a search for `stable-diffusion-webui`. It's possible that you unintentionally downloaded it to a different location. If so, you can either relocate the entire 'stable-diffusion-webui' folder to your home folder, or if you prefer to keep it in its current location, you'll need to use the `cd` command in your terminal app to navigate to that specific directory.

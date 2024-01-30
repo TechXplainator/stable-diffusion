@@ -73,3 +73,25 @@ The 'no such file' error typically occurs when the Terminal can't find the speci
 
 4. **Search for download location in Finder:**
     If challenges persist, launch Finder on your Mac and conduct a search for `stable-diffusion-webui`. It's possible that you unintentionally downloaded it to a different location. If so, you can either relocate the entire 'stable-diffusion-webui' folder to your home folder, or if you prefer to keep it in its current location, you'll need to use the `cd` command in your terminal app to navigate to that specific directory.
+
+
+## Common Issues during Image Generation
+
+ ### 1. Python has quit unexpectedly
+
+It seems like this is a common issue that many users have reported:
+- [Github: Python has quit unexpectedly (M1 Pro 16gb)](https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues/12416)
+- [Github: M2 macos python3.10 quits unexpectedly after hitting "generate"](https://github.com/AUTOMATIC1111/stable-diffusion-webui/discussions/10247)
+- [Github: Python quit unexpectedly on Mac OS with txt2img if using hiresfix to generate images](https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues/5957)
+- [Github: Error - Connection Errored Out ](https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues/9074)
+   
+   
+Unfortunately, Stable Diffusion is specifically tailored for NVIDIA GPUs, hence utilizing it on a Mac comes with inherent limitations. Here are some steps to mitigate these limitations:
+
+1. Decrease the resolution and sample size of the images you intend to generate. This adjustment could potentially alleviate the computational burden and mitigate potential timeout issues.
+
+2. Consider utilizing a generation 1 model (derived from stable diffusion v 1.5) or one of its variations.
+
+3. If you encounter persistent errors despite adjusting the resolution and using a gen 1 model, attempt a reinstallation of Stable Diffusion to address any potential software-related issues.
+
+

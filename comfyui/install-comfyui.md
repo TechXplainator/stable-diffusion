@@ -6,7 +6,8 @@
    2. [Install Python and Pip](#step-2---install-python-and-pip)
    3. [Install ComfyUI](#step-3---install-comfyui)
    4. [Install Requirements](#step-4---install-requirements)
-- [Run ComfyUI after Installation]
+- [Run ComfyUI after Installation](#how-to-run-comfyui)
+- [End ComfyUI after Usage](#how-to-close-comfyui)
 - [Troubleshooting](#troubleshooting)
 
 
@@ -38,7 +39,7 @@ Once the installation is complete, you should see a message indicating that Home
 
 > You'll also see a "Next Steps" section in your terminal, guiding you to adjust the PATH environment variable to ensure recognition and accessibility of Homebrew commands from any directory in the Terminal. This section provides a customized command containing the path to your user folder on macOS.
 
-![homebrew-path](/images/homebrew-adjust-path.png)
+![homebrew-path](comfyui/images/homebrew-adjust-path.png)
 
 Copy the command, paste it into your terminal, and press `Enter`.
 
@@ -172,7 +173,7 @@ To exit ComfyUI, simply closing the browser window isn't sufficient. You must al
 
 In some cases during the installation of requirements, you encounter an error message saying `externally-managed-environment` when you try install the dependencies in [step 4](#step-4---install-requirements). It will look somewhat like this:
 
-![Image Error Externally Managed](/comfyui/images/error-requirement-installation.png)
+![Image Error Externally Managed](comfyui/images/error-requirement-installation.png)
 
 Use a virtual environment to manage dependencies for Python projects. You can create one using:
 

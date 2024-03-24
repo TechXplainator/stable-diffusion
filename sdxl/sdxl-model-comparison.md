@@ -1,10 +1,5 @@
 # SDXL Model Comparison
 
-
-Testing image links:
-1.  ![00000-3719253140.png](/sdxl/images/sdxl-1/00000-3719253140.png)
-2. ![00000-3719253140.png](/images/sdxl-1/00000-3719253140.png)
-
 Most prompts were generated using [Leonardo AI](https://app.leonardo.ai/) Prompt Generator. However, I used Automatic1111 Stable Diffusion Web UI in Google Colab for image generation. I used the same prompts and seeds for all models.
 
 I applied identical prompts and seeds across all images. However, I adhered to the recommended configurations and negative prompts specific to each model.
@@ -18,7 +13,7 @@ The images displayed are generated directly by the AI without any extra manipula
 
 **Image Dimensions:** 1024 x 1024  
 
-| Image               | ![00000-3719253140.png](/sdxl/images/sdxl-1/00000-3719253140.png) | ![00000-3719253140.png](/sdxl/images/copax/00000-3719253140.png) | ![00000-3719253140.png](/sdxl/images/dreamshaper/00000-3719253140.png) | ![00000-3719253140.png](/sdxl/images/juggernaut/00000-3719253140.png) | ![00000-3719253140.png](/sdxl/images/realvis/00000-3719253140.png) |
+| Image               | ![00000-3719253140.png](/images/sdxl-1/00000-3719253140.png) | ![00000-3719253140.png](/images/copax/00000-3719253140.png) | ![00000-3719253140.png](/images/dreamshaper/00000-3719253140.png) | ![00000-3719253140.png](/images/juggernaut/00000-3719253140.png) | ![00000-3719253140.png](/images/realvis/00000-3719253140.png) |
 |---------------------|--------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------|--------------------------------------------------|-------------------------------------------------|
 | Model              | SDXL base 1.0 with 0.9 VAE + SDXL refiner 1.0 with 0.9 VAE | Copax TimeLessXL Version V9                         | Dreamshaper XL v2 Turbo DPMpp SDE                 | Juggernaut XL V8 + RunDiffusion                  | RealVisXL V3.0 (Baked VAE)                      |
 | Sampler             | DPM++ 2M Karras        | DPM 3M++ SDE Exponential    |        DPM++ SDE Karras                         |           DPM++ 2M Karras                       |                        DPM++ SDE Karras     | 
@@ -34,7 +29,7 @@ The images displayed are generated directly by the AI without any extra manipula
 
 **Image Dimensions:** 1024 x 1024  
 
-| Image               | ![00001-2855127902.png](/sdxl/images/sdxl-1/00001-2855127902.png) | ![00001-2855127902.png](/sdxl/images/copax/00001-2855127902.png) | ![00001-2855127902.png](/sdxl/images/dreamshaper/00001-2855127902.png) | ![00001-2855127902.png](/sdxl/images/juggernaut/00001-2855127902.png) | ![00001-2855127902.png](/sdxl/images/realvis/00001-2855127902.png) |
+| Image               | ![00001-2855127902.png](/images/sdxl-1/00001-2855127902.png) | ![00001-2855127902.png](/images/copax/00001-2855127902.png) | ![00001-2855127902.png](/images/dreamshaper/00001-2855127902.png) | ![00001-2855127902.png](/images/juggernaut/00001-2855127902.png) | ![00001-2855127902.png](/images/realvis/00001-2855127902.png) |
 |---------------------|--------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------|--------------------------------------------------|-------------------------------------------------|
 | Model              | SDXL base 1.0 with 0.9 VAE + SDXL refiner 1.0 with 0.9 VAE | Copax TimeLessXL Version V9                         | Dreamshaper XL v2 Turbo DPMpp SDE                 | Juggernaut XL V8 + RunDiffusion                  | RealVisXL V3.0 (Baked VAE)                      |
 | Sampler             | DPM++ 2M Karras        | DPM 3M++ SDE Exponential    |        DPM++ SDE Karras                         |           DPM++ 2M Karras                       |                        DPM++ SDE Karras     | 
@@ -51,7 +46,7 @@ The images displayed are generated directly by the AI without any extra manipula
 **Image Dimensions:** 1024 x 1024  
 
 
-| Image               | ![00002-2570845037.png](/sdxl/images/sdxl-1/00002-2570845037.png) | ![00002-2570845037.png](/sdxl/images/copax/00002-2570845037.png) | ![00002-2570845037.png](/sdxl/images/dreamshaper/00002-2570845037.png) | ![00002-2570845037.png](/sdxl/images/juggernaut/00002-2570845037.png) | ![00002-2570845037.png](/sdxl/images/realvis/00002-2570845037.png) |
+| Image               | ![00002-2570845037.png](/images/sdxl-1/00002-2570845037.png) | ![00002-2570845037.png](/images/copax/00002-2570845037.png) | ![00002-2570845037.png](/images/dreamshaper/00002-2570845037.png) | ![00002-2570845037.png](/images/juggernaut/00002-2570845037.png) | ![00002-2570845037.png](/images/realvis/00002-2570845037.png) |
 |---------------------|--------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------|--------------------------------------------------|-------------------------------------------------|
 | Model              | SDXL base 1.0 with 0.9 VAE + SDXL refiner 1.0 with 0.9 VAE | Copax TimeLessXL Version V9                         | Dreamshaper XL v2 Turbo DPMpp SDE                 | Juggernaut XL V8 + RunDiffusion                  | RealVisXL V3.0 (Baked VAE)                      |
 | Sampler             | DPM++ 2M Karras        | DPM 3M++ SDE Exponential    |        DPM++ SDE Karras                         |           DPM++ 2M Karras                       |                        DPM++ SDE Karras     | 
@@ -68,7 +63,7 @@ The images displayed are generated directly by the AI without any extra manipula
 **Image Dimensions:** 1024 x 1024  
 
 
-| Image               | ![00003-656694883.png](/sdxl/images/sdxl-1/00003-656694883.png) | ![00003-656694883.png](/sdxl/images/copax/00003-656694883.png) | ![00003-656694883.png](/sdxl/images/dreamshaper/00003-656694883.png) | ![00003-656694883.png](/sdxl/images/juggernaut/00003-656694883.png) | ![00003-656694883.png](/sdxl/images/realvis/00003-656694883.png) |
+| Image               | ![00003-656694883.png](/images/sdxl-1/00003-656694883.png) | ![00003-656694883.png](/images/copax/00003-656694883.png) | ![00003-656694883.png](/images/dreamshaper/00003-656694883.png) | ![00003-656694883.png](/images/juggernaut/00003-656694883.png) | ![00003-656694883.png](/images/realvis/00003-656694883.png) |
 |---------------------|--------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------|--------------------------------------------------|-------------------------------------------------|
 | Model              | SDXL base 1.0 with 0.9 VAE + SDXL refiner 1.0 with 0.9 VAE | Copax TimeLessXL Version V9                         | Dreamshaper XL v2 Turbo DPMpp SDE                 | Juggernaut XL V8 + RunDiffusion                  | RealVisXL V3.0 (Baked VAE)                      |
 | Sampler             | DPM++ 2M Karras        | DPM 3M++ SDE Exponential    |        DPM++ SDE Karras                         |           DPM++ 2M Karras                       |                        DPM++ SDE Karras     | 
@@ -84,7 +79,7 @@ The images displayed are generated directly by the AI without any extra manipula
 **Image Dimensions:** 1024 x 1024  
 
 
-| Image               | ![00004-2617212831.png](/sdxl/images/sdxl-1/00004-2617212831.png) | ![00004-2617212831.png](/sdxl/images/copax/00004-2617212831.png) | ![00004-2617212831.png](/sdxl/images/dreamshaper/00004-2617212831.png) | ![00004-2617212831.png](/sdxl/images/juggernaut/00004-2617212831.png) | ![00004-2617212831.png](/sdxl/images/realvis/00004-2617212831.png) |
+| Image               | ![00004-2617212831.png](/images/sdxl-1/00004-2617212831.png) | ![00004-2617212831.png](/images/copax/00004-2617212831.png) | ![00004-2617212831.png](/images/dreamshaper/00004-2617212831.png) | ![00004-2617212831.png](/images/juggernaut/00004-2617212831.png) | ![00004-2617212831.png](/images/realvis/00004-2617212831.png) |
 |---------------------|--------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------|--------------------------------------------------|-------------------------------------------------|
 | Model              | SDXL base 1.0 with 0.9 VAE + SDXL refiner 1.0 with 0.9 VAE | Copax TimeLessXL Version V9                         | Dreamshaper XL v2 Turbo DPMpp SDE                 | Juggernaut XL V8 + RunDiffusion                  | RealVisXL V3.0 (Baked VAE)                      |
 | Sampler             | DPM++ 2M Karras        | DPM 3M++ SDE Exponential    |        DPM++ SDE Karras                         |           DPM++ 2M Karras                       |                        DPM++ SDE Karras     | 
@@ -101,7 +96,7 @@ The images displayed are generated directly by the AI without any extra manipula
 **Image Dimensions:** 1024 x 1024  
 
 
-| Image               | ![00005-2492830952.png](/sdxl/images/sdxl-1/00005-2492830952.png) | ![00005-2492830952.png](/sdxl/images/copax/00005-2492830952.png) | ![00005-2492830952.png](/sdxl/images/dreamshaper/00005-2492830952.png) | ![00005-2492830952.png](/sdxl/images/juggernaut/00005-2492830952.png) | ![00005-2492830952.png](/sdxl/images/realvis/00005-2492830952.png) |
+| Image               | ![00005-2492830952.png](/images/sdxl-1/00005-2492830952.png) | ![00005-2492830952.png](/images/copax/00005-2492830952.png) | ![00005-2492830952.png](/images/dreamshaper/00005-2492830952.png) | ![00005-2492830952.png](/images/juggernaut/00005-2492830952.png) | ![00005-2492830952.png](/images/realvis/00005-2492830952.png) |
 |---------------------|--------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------|--------------------------------------------------|-------------------------------------------------|
 | Model              | SDXL base 1.0 with 0.9 VAE + SDXL refiner 1.0 with 0.9 VAE | Copax TimeLessXL Version V9                         | Dreamshaper XL v2 Turbo DPMpp SDE                 | Juggernaut XL V8 + RunDiffusion                  | RealVisXL V3.0 (Baked VAE)                      |
 | Sampler             | DPM++ 2M Karras        | DPM 3M++ SDE Exponential    |        DPM++ SDE Karras                         |           DPM++ 2M Karras                       |                        DPM++ SDE Karras     | 
@@ -118,7 +113,7 @@ The images displayed are generated directly by the AI without any extra manipula
 **Image Dimensions:** 1024 x 1024  
 
 
-| Image               | ![00006-887226551.png](/sdxl/images/sdxl-1/00006-887226551.png) | ![00006-887226551.png](/sdxl/images/copax/00006-887226551.png) | ![00006-887226551.png](/sdxl/images/dreamshaper/00006-887226551.png) | ![00006-887226551.png](/sdxl/images/juggernaut/00006-887226551.png) | ![00006-887226551.png](/sdxl/images/realvis/00006-887226551.png) |
+| Image               | ![00006-887226551.png](/images/sdxl-1/00006-887226551.png) | ![00006-887226551.png](/images/copax/00006-887226551.png) | ![00006-887226551.png](/images/dreamshaper/00006-887226551.png) | ![00006-887226551.png](/images/juggernaut/00006-887226551.png) | ![00006-887226551.png](/images/realvis/00006-887226551.png) |
 |---------------------|--------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------|--------------------------------------------------|-------------------------------------------------|
 | Model              | SDXL base 1.0 with 0.9 VAE + SDXL refiner 1.0 with 0.9 VAE | Copax TimeLessXL Version V9                         | Dreamshaper XL v2 Turbo DPMpp SDE                 | Juggernaut XL V8 + RunDiffusion                  | RealVisXL V3.0 (Baked VAE)                      |
 | Sampler             | DPM++ 2M Karras        | DPM 3M++ SDE Exponential    |        DPM++ SDE Karras                         |           DPM++ 2M Karras                       |                        DPM++ SDE Karras     | 
@@ -135,7 +130,7 @@ The images displayed are generated directly by the AI without any extra manipula
 **Image Dimensions:** 1024 x 1024  
 
 
-| Image               | ![00007-2322571094.png](/sdxl/images/sdxl-1/00007-2322571094.png) | ![00007-2322571094.png](/sdxl/images/copax/00007-2322571094.png) | ![00007-2322571094.png](/sdxl/images/dreamshaper/00007-2322571094.png) | ![00007-2322571094.png](/sdxl/images/juggernaut/00007-2322571094.png) | ![00007-2322571094.png](/sdxl/images/realvis/00007-2322571094.png) |
+| Image               | ![00007-2322571094.png](/images/sdxl-1/00007-2322571094.png) | ![00007-2322571094.png](/images/copax/00007-2322571094.png) | ![00007-2322571094.png](/images/dreamshaper/00007-2322571094.png) | ![00007-2322571094.png](/images/juggernaut/00007-2322571094.png) | ![00007-2322571094.png](/images/realvis/00007-2322571094.png) |
 |---------------------|--------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------|--------------------------------------------------|-------------------------------------------------|
 | Model              | SDXL base 1.0 with 0.9 VAE + SDXL refiner 1.0 with 0.9 VAE | Copax TimeLessXL Version V9                         | Dreamshaper XL v2 Turbo DPMpp SDE                 | Juggernaut XL V8 + RunDiffusion                  | RealVisXL V3.0 (Baked VAE)                      |
 | Sampler             | DPM++ 2M Karras        | DPM 3M++ SDE Exponential    |        DPM++ SDE Karras                         |           DPM++ 2M Karras                       |                        DPM++ SDE Karras     | 
@@ -152,7 +147,7 @@ The images displayed are generated directly by the AI without any extra manipula
 **Image Dimensions:** 1024 x 1024  
 
 
-| Image               | ![00008-1895783298.png](/sdxl/images/sdxl-1/00008-1895783298.png) | ![00008-1895783298.png](/sdxl/images/copax/00008-1895783298.png) | ![00008-1895783298.png](/sdxl/images/dreamshaper/00008-1895783298.png) | ![00008-1895783298.png](/sdxl/images/juggernaut/00008-1895783298.png) | ![00008-1895783298.png](/sdxl/images/realvis/00008-1895783298.png) |
+| Image               | ![00008-1895783298.png](/images/sdxl-1/00008-1895783298.png) | ![00008-1895783298.png](/images/copax/00008-1895783298.png) | ![00008-1895783298.png](/images/dreamshaper/00008-1895783298.png) | ![00008-1895783298.png](/images/juggernaut/00008-1895783298.png) | ![00008-1895783298.png](/images/realvis/00008-1895783298.png) |
 |---------------------|--------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------|--------------------------------------------------|-------------------------------------------------|
 | Model              | SDXL base 1.0 with 0.9 VAE + SDXL refiner 1.0 with 0.9 VAE | Copax TimeLessXL Version V9                         | Dreamshaper XL v2 Turbo DPMpp SDE                 | Juggernaut XL V8 + RunDiffusion                  | RealVisXL V3.0 (Baked VAE)                      |
 | Sampler             | DPM++ 2M Karras        | DPM 3M++ SDE Exponential    |        DPM++ SDE Karras                         |           DPM++ 2M Karras                       |                        DPM++ SDE Karras     | 
@@ -169,7 +164,7 @@ The images displayed are generated directly by the AI without any extra manipula
 **Image Dimensions:** 1024 x 1024  
 
 
-| Image               | ![00009-1272220565.png](/sdxl/images/sdxl-1/00009-1272220565.png) | ![00009-1272220565.png](/sdxl/images/copax/00009-1272220565.png) | ![00009-1272220565.png](/sdxl/images/dreamshaper/00009-1272220565.png) | ![00009-1272220565.png](/sdxl/images/juggernaut/00009-1272220565.png) | ![00009-1272220565.png](/sdxl/images/realvis/00009-1272220565.png) |
+| Image               | ![00009-1272220565.png](/images/sdxl-1/00009-1272220565.png) | ![00009-1272220565.png](/images/copax/00009-1272220565.png) | ![00009-1272220565.png](/images/dreamshaper/00009-1272220565.png) | ![00009-1272220565.png](/images/juggernaut/00009-1272220565.png) | ![00009-1272220565.png](/images/realvis/00009-1272220565.png) |
 |---------------------|--------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------|--------------------------------------------------|-------------------------------------------------|
 | Model              | SDXL base 1.0 with 0.9 VAE + SDXL refiner 1.0 with 0.9 VAE | Copax TimeLessXL Version V9                         | Dreamshaper XL v2 Turbo DPMpp SDE                 | Juggernaut XL V8 + RunDiffusion                  | RealVisXL V3.0 (Baked VAE)                      |
 | Sampler             | DPM++ 2M Karras        | DPM 3M++ SDE Exponential    |        DPM++ SDE Karras                         |           DPM++ 2M Karras                       |                        DPM++ SDE Karras     | 
@@ -185,7 +180,7 @@ The images displayed are generated directly by the AI without any extra manipula
 **Image Dimensions:** 1024 x 1024  
 
 
-| Image               | ![00010-1981171048.png](/sdxl/images/sdxl-1/00010-1981171048.png) | ![00010-1981171048.png](/sdxl/images/copax/00010-1981171048.png) | ![00010-1981171048.png](/sdxl/images/dreamshaper/00010-1981171048.png) | ![00010-1981171048.png](/sdxl/images/juggernaut/00010-1981171048.png) | ![00010-1981171048.png](/sdxl/images/realvis/00010-1981171048.png) |
+| Image               | ![00010-1981171048.png](/images/sdxl-1/00010-1981171048.png) | ![00010-1981171048.png](/images/copax/00010-1981171048.png) | ![00010-1981171048.png](/images/dreamshaper/00010-1981171048.png) | ![00010-1981171048.png](/images/juggernaut/00010-1981171048.png) | ![00010-1981171048.png](/images/realvis/00010-1981171048.png) |
 |---------------------|--------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------|--------------------------------------------------|-------------------------------------------------|
 | Model              | SDXL base 1.0 with 0.9 VAE + SDXL refiner 1.0 with 0.9 VAE | Copax TimeLessXL Version V9                         | Dreamshaper XL v2 Turbo DPMpp SDE                 | Juggernaut XL V8 + RunDiffusion                  | RealVisXL V3.0 (Baked VAE)                      |
 | Sampler             | DPM++ 2M Karras        | DPM 3M++ SDE Exponential    |        DPM++ SDE Karras                         |           DPM++ 2M Karras                       |                        DPM++ SDE Karras     | 
@@ -202,7 +197,7 @@ The images displayed are generated directly by the AI without any extra manipula
 **Image Dimensions:** 1024 x 1024  
 
 
-| Image               | ![00012-2222685910.png](/sdxl/images/sdxl-1/00012-2222685910.png)           | ![00012-2222685910.png](/sdxl/images/copax/00012-2222685910.png)           | ![00012-2222685910.png](/sdxl/images/dreamshaper/00012-2222685910.png) | ![00012-2222685910.png](/sdxl/images/juggernaut/00012-2222685910.png) | ![00012-2222685910.png](/sdxl/images/realvis/00012-2222685910.png) |
+| Image               | ![00012-2222685910.png](/images/sdxl-1/00012-2222685910.png)           | ![00012-2222685910.png](/images/copax/00012-2222685910.png)           | ![00012-2222685910.png](/images/dreamshaper/00012-2222685910.png) | ![00012-2222685910.png](/images/juggernaut/00012-2222685910.png) | ![00012-2222685910.png](/images/realvis/00012-2222685910.png) |
 |---------------------|--------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------|--------------------------------------------------|-------------------------------------------------|
 | Model              | SDXL base 1.0 with 0.9 VAE + SDXL refiner 1.0 with 0.9 VAE | Copax TimeLessXL Version V9                         | Dreamshaper XL v2 Turbo DPMpp SDE                 | Juggernaut XL V8 + RunDiffusion                  | RealVisXL V3.0 (Baked VAE)                      |
 | Sampler             | DPM++ 2M Karras        | DPM 3M++ SDE Exponential    |        DPM++ SDE Karras                         |           DPM++ 2M Karras                       |                        DPM++ SDE Karras     | 
@@ -219,7 +214,7 @@ The images displayed are generated directly by the AI without any extra manipula
 **Image Dimensions:** 1024 x 1024  
 
 
-| Image               | ![00013-2674118466.png](/sdxl/images/sdxl-1/00013-2674118466.png) | ![00013-2674118466.png](/sdxl/images/copax/00013-2674118466.png) | ![00013-2674118466.png](/sdxl/images/dreamshaper/00013-2674118466.png) | ![00013-2674118466.png](/sdxl/images/juggernaut/00013-2674118466.png) | ![00013-2674118466.png](/sdxl/images/realvis/00013-2674118466.png) |
+| Image               | ![00013-2674118466.png](/images/sdxl-1/00013-2674118466.png) | ![00013-2674118466.png](/images/copax/00013-2674118466.png) | ![00013-2674118466.png](/images/dreamshaper/00013-2674118466.png) | ![00013-2674118466.png](/images/juggernaut/00013-2674118466.png) | ![00013-2674118466.png](/images/realvis/00013-2674118466.png) |
 |---------------------|--------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------|--------------------------------------------------|-------------------------------------------------|
 | Model              | SDXL base 1.0 with 0.9 VAE + SDXL refiner 1.0 with 0.9 VAE | Copax TimeLessXL Version V9                         | Dreamshaper XL v2 Turbo DPMpp SDE                 | Juggernaut XL V8 + RunDiffusion                  | RealVisXL V3.0 (Baked VAE)                      |
 | Sampler             | DPM++ 2M Karras        | DPM 3M++ SDE Exponential    |        DPM++ SDE Karras                         |           DPM++ 2M Karras                       |                        DPM++ SDE Karras     | 
@@ -236,7 +231,7 @@ The images displayed are generated directly by the AI without any extra manipula
 **Image Dimensions:** 1024 x 1024   
 
 
-| Image               | ![00014-552261060.png](/sdxl/images/sdxl-1/00014-552261060.png) | ![00014-552261060.png](/sdxl/images/copax/00014-552261060.png) | ![00014-552261060.png](/sdxl/images/dreamshaper/00014-552261060.png) | ![00014-552261060.png](/sdxl/images/juggernaut/00014-552261060.png) | ![00014-552261060.png](/sdxl/images/realvis/00014-552261060.png) |
+| Image               | ![00014-552261060.png](/images/sdxl-1/00014-552261060.png) | ![00014-552261060.png](/images/copax/00014-552261060.png) | ![00014-552261060.png](/images/dreamshaper/00014-552261060.png) | ![00014-552261060.png](/images/juggernaut/00014-552261060.png) | ![00014-552261060.png](/images/realvis/00014-552261060.png) |
 |---------------------|--------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------|--------------------------------------------------|-------------------------------------------------|
 | Model              | SDXL base 1.0 with 0.9 VAE + SDXL refiner 1.0 with 0.9 VAE | Copax TimeLessXL Version V9                         | Dreamshaper XL v2 Turbo DPMpp SDE                 | Juggernaut XL V8 + RunDiffusion                  | RealVisXL V3.0 (Baked VAE)                      |
 | Sampler             | DPM++ 2M Karras        | DPM 3M++ SDE Exponential    |        DPM++ SDE Karras                         |           DPM++ 2M Karras                       |                        DPM++ SDE Karras     | 
@@ -253,7 +248,7 @@ The images displayed are generated directly by the AI without any extra manipula
 **Image Dimensions:** 1024 x 1024   
 
 
-| Image               | ![00015-4238506589.png](/sdxl/images/sdxl-1/00015-4238506589.png) | ![00015-4238506589.png](/sdxl/images/copax/00015-4238506589.png) | ![00015-4238506589.png](/sdxl/images/dreamshaper/00015-4238506589.png) | ![00015-4238506589.png](/sdxl/images/juggernaut/00015-4238506589.png) | ![00015-4238506589.png](/sdxl/images/realvis/00015-4238506589.png) |
+| Image               | ![00015-4238506589.png](/images/sdxl-1/00015-4238506589.png) | ![00015-4238506589.png](/images/copax/00015-4238506589.png) | ![00015-4238506589.png](/images/dreamshaper/00015-4238506589.png) | ![00015-4238506589.png](/images/juggernaut/00015-4238506589.png) | ![00015-4238506589.png](/images/realvis/00015-4238506589.png) |
 |---------------------|--------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------|--------------------------------------------------|-------------------------------------------------|
 | Model              | SDXL base 1.0 with 0.9 VAE + SDXL refiner 1.0 with 0.9 VAE | Copax TimeLessXL Version V9                         | Dreamshaper XL v2 Turbo DPMpp SDE                 | Juggernaut XL V8 + RunDiffusion                  | RealVisXL V3.0 (Baked VAE)                      |
 | Sampler             | DPM++ 2M Karras        | DPM 3M++ SDE Exponential    |        DPM++ SDE Karras                         |           DPM++ 2M Karras                       |                        DPM++ SDE Karras     | 
@@ -270,7 +265,7 @@ The images displayed are generated directly by the AI without any extra manipula
 **Image Dimensions:** 1024 x 1024   
 
 
-| Image               | ![00016-3076404424.png](/sdxl/images/sdxl-1/00016-3076404424.png) | ![00016-3076404424.png](/sdxl/images/copax/00016-3076404424.png) | ![00016-3076404424.png](/sdxl/images/dreamshaper/00016-3076404424.png) | ![00016-3076404424.png](/sdxl/images/juggernaut/00016-3076404424.png) | ![00016-3076404424.png](/sdxl/images/realvis/00016-3076404424.png) |
+| Image               | ![00016-3076404424.png](/images/sdxl-1/00016-3076404424.png) | ![00016-3076404424.png](/images/copax/00016-3076404424.png) | ![00016-3076404424.png](/images/dreamshaper/00016-3076404424.png) | ![00016-3076404424.png](/images/juggernaut/00016-3076404424.png) | ![00016-3076404424.png](/images/realvis/00016-3076404424.png) |
 |---------------------|--------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------|--------------------------------------------------|-------------------------------------------------|
 | Model              | SDXL base 1.0 with 0.9 VAE + SDXL refiner 1.0 with 0.9 VAE | Copax TimeLessXL Version V9                         | Dreamshaper XL v2 Turbo DPMpp SDE                 | Juggernaut XL V8 + RunDiffusion                  | RealVisXL V3.0 (Baked VAE)                      |
 | Sampler             | DPM++ 2M Karras        | DPM 3M++ SDE Exponential    |        DPM++ SDE Karras                         |           DPM++ 2M Karras                       |                        DPM++ SDE Karras     | 
@@ -287,7 +282,7 @@ The images displayed are generated directly by the AI without any extra manipula
 **Image Dimensions:** 1024 x 1024   
 
 
-| Image               | ![00017-2597596686.png](/sdxl/images/sdxl-1/00017-2597596686.png) | ![00017-2597596686.png](/sdxl/images/copax/00017-2597596686.png) | ![00017-2597596686.png](/sdxl/images/dreamshaper/00017-2597596686.png) | ![00017-2597596686.png](/sdxl/images/juggernaut/00017-2597596686.png) | ![00017-2597596686.png](/sdxl/images/realvis/00017-2597596686.png) |
+| Image               | ![00017-2597596686.png](/images/sdxl-1/00017-2597596686.png) | ![00017-2597596686.png](/images/copax/00017-2597596686.png) | ![00017-2597596686.png](/images/dreamshaper/00017-2597596686.png) | ![00017-2597596686.png](/images/juggernaut/00017-2597596686.png) | ![00017-2597596686.png](/images/realvis/00017-2597596686.png) |
 |---------------------|--------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------|--------------------------------------------------|-------------------------------------------------|
 | Model              | SDXL base 1.0 with 0.9 VAE + SDXL refiner 1.0 with 0.9 VAE | Copax TimeLessXL Version V9                         | Dreamshaper XL v2 Turbo DPMpp SDE                 | Juggernaut XL V8 + RunDiffusion                  | RealVisXL V3.0 (Baked VAE)                      |
 | Sampler             | DPM++ 2M Karras        | DPM 3M++ SDE Exponential    |        DPM++ SDE Karras                         |           DPM++ 2M Karras                       |                        DPM++ SDE Karras     | 
@@ -304,7 +299,7 @@ The images displayed are generated directly by the AI without any extra manipula
 **Image Dimensions:** 1024 x 1024   
 
 
-| Image               | ![00018-4028737961.png](/sdxl/images/sdxl-1/00018-4028737961.png) | ![00018-4028737961.png](/sdxl/images/copax/00018-4028737961.png) | ![00018-4028737961.png](/sdxl/images/dreamshaper/00018-4028737961.png) | ![00018-4028737961.png](/sdxl/images/juggernaut/00018-4028737961.png) | ![00018-4028737961.png](/sdxl/images/realvis/00018-4028737961.png) |
+| Image               | ![00018-4028737961.png](/images/sdxl-1/00018-4028737961.png) | ![00018-4028737961.png](/images/copax/00018-4028737961.png) | ![00018-4028737961.png](/images/dreamshaper/00018-4028737961.png) | ![00018-4028737961.png](/images/juggernaut/00018-4028737961.png) | ![00018-4028737961.png](/images/realvis/00018-4028737961.png) |
 |---------------------|--------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------|--------------------------------------------------|-------------------------------------------------|
 | Model              | SDXL base 1.0 with 0.9 VAE + SDXL refiner 1.0 with 0.9 VAE | Copax TimeLessXL Version V9                         | Dreamshaper XL v2 Turbo DPMpp SDE                 | Juggernaut XL V8 + RunDiffusion                  | RealVisXL V3.0 (Baked VAE)                      |
 | Sampler             | DPM++ 2M Karras        | DPM 3M++ SDE Exponential    |        DPM++ SDE Karras                         |           DPM++ 2M Karras                       |                        DPM++ SDE Karras     | 
@@ -321,7 +316,7 @@ The images displayed are generated directly by the AI without any extra manipula
 **Image Dimensions:** 1024 x 1024   
 
 
-| Image               | ![00019-519653091.png](/sdxl/images/sdxl-1/00019-519653091.png) | ![00019-519653091.png](/sdxl/images/copax/00019-519653091.png) | ![00019-519653091.png](/sdxl/images/dreamshaper/00019-519653091.png) | ![00019-519653091.png](/sdxl/images/juggernaut/00019-519653091.png) | ![00019-519653091.png](/sdxl/images/realvis/00019-519653091.png) |
+| Image               | ![00019-519653091.png](/images/sdxl-1/00019-519653091.png) | ![00019-519653091.png](/images/copax/00019-519653091.png) | ![00019-519653091.png](/images/dreamshaper/00019-519653091.png) | ![00019-519653091.png](/images/juggernaut/00019-519653091.png) | ![00019-519653091.png](/images/realvis/00019-519653091.png) |
 |---------------------|--------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------|--------------------------------------------------|-------------------------------------------------|
 | Model              | SDXL base 1.0 with 0.9 VAE + SDXL refiner 1.0 with 0.9 VAE | Copax TimeLessXL Version V9                         | Dreamshaper XL v2 Turbo DPMpp SDE                 | Juggernaut XL V8 + RunDiffusion                  | RealVisXL V3.0 (Baked VAE)                      |
 | Sampler             | DPM++ 2M Karras        | DPM 3M++ SDE Exponential    |        DPM++ SDE Karras                         |           DPM++ 2M Karras                       |                        DPM++ SDE Karras     | 
@@ -338,7 +333,7 @@ The images displayed are generated directly by the AI without any extra manipula
 **Image Dimensions:** 1024 x 1024   
 
 
-| Image               | ![00020-3723691895.png](/sdxl/images/sdxl-1/00020-3723691895.png) | ![00020-3723691895.png](/sdxl/images/copax/00020-3723691895.png) | ![00020-3723691895.png](/sdxl/images/dreamshaper/00020-3723691895.png) | ![00020-3723691895.png](/sdxl/images/juggernaut/00020-3723691895.png) | ![00020-3723691895.png](/sdxl/images/realvis/00020-3723691895.png) |
+| Image               | ![00020-3723691895.png](/images/sdxl-1/00020-3723691895.png) | ![00020-3723691895.png](/images/copax/00020-3723691895.png) | ![00020-3723691895.png](/images/dreamshaper/00020-3723691895.png) | ![00020-3723691895.png](/images/juggernaut/00020-3723691895.png) | ![00020-3723691895.png](/images/realvis/00020-3723691895.png) |
 |---------------------|--------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------|--------------------------------------------------|-------------------------------------------------|
 | Model              | SDXL base 1.0 with 0.9 VAE + SDXL refiner 1.0 with 0.9 VAE | Copax TimeLessXL Version V9                         | Dreamshaper XL v2 Turbo DPMpp SDE                 | Juggernaut XL V8 + RunDiffusion                  | RealVisXL V3.0 (Baked VAE)                      |
 | Sampler             | DPM++ 2M Karras        | DPM 3M++ SDE Exponential    |        DPM++ SDE Karras                         |           DPM++ 2M Karras                       |                        DPM++ SDE Karras     | 
@@ -355,7 +350,7 @@ The images displayed are generated directly by the AI without any extra manipula
 **Image Dimensions:** 1024 x 1024   
 
 
-| Image               | ![00021-248681639.png](/sdxl/images/sdxl-1/00021-248681639.png) | ![00021-248681639.png](/sdxl/images/copax/00021-248681639.png) | ![00021-248681639.png](/sdxl/images/dreamshaper/00021-248681639.png) | ![00021-248681639.png](/sdxl/images/juggernaut/00021-248681639.png) | ![00021-248681639.png](/sdxl/images/realvis/00021-248681639.png) |
+| Image               | ![00021-248681639.png](/images/sdxl-1/00021-248681639.png) | ![00021-248681639.png](/images/copax/00021-248681639.png) | ![00021-248681639.png](/images/dreamshaper/00021-248681639.png) | ![00021-248681639.png](/images/juggernaut/00021-248681639.png) | ![00021-248681639.png](/images/realvis/00021-248681639.png) |
 |---------------------|--------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------|--------------------------------------------------|-------------------------------------------------|
 | Model              | SDXL base 1.0 with 0.9 VAE + SDXL refiner 1.0 with 0.9 VAE | Copax TimeLessXL Version V9                         | Dreamshaper XL v2 Turbo DPMpp SDE                 | Juggernaut XL V8 + RunDiffusion                  | RealVisXL V3.0 (Baked VAE)                      |
 | Sampler             | DPM++ 2M Karras        | DPM 3M++ SDE Exponential    |        DPM++ SDE Karras                         |           DPM++ 2M Karras                       |                        DPM++ SDE Karras     | 
@@ -372,7 +367,7 @@ The images displayed are generated directly by the AI without any extra manipula
 **Image Dimensions:** 1024 x 1024   
 
 
-| Image               | ![00022-4286404194.png](/sdxl/images/sdxl-1/00022-4286404194.png) | ![00022-4286404194.png](/sdxl/images/copax/00022-4286404194.png) | ![00022-4286404194.png](/sdxl/images/dreamshaper/00022-4286404194.png) | ![00022-4286404194.png](/sdxl/images/juggernaut/00022-4286404194.png) | ![00022-4286404194.png](/sdxl/images/realvis/00022-4286404194.png) |
+| Image               | ![00022-4286404194.png](/images/sdxl-1/00022-4286404194.png) | ![00022-4286404194.png](/images/copax/00022-4286404194.png) | ![00022-4286404194.png](/images/dreamshaper/00022-4286404194.png) | ![00022-4286404194.png](/images/juggernaut/00022-4286404194.png) | ![00022-4286404194.png](/images/realvis/00022-4286404194.png) |
 |---------------------|--------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------|--------------------------------------------------|-------------------------------------------------|
 | Model              | SDXL base 1.0 with 0.9 VAE + SDXL refiner 1.0 with 0.9 VAE | Copax TimeLessXL Version V9                         | Dreamshaper XL v2 Turbo DPMpp SDE                 | Juggernaut XL V8 + RunDiffusion                  | RealVisXL V3.0 (Baked VAE)                      |
 | Sampler             | DPM++ 2M Karras        | DPM 3M++ SDE Exponential    |        DPM++ SDE Karras                         |           DPM++ 2M Karras                       |                        DPM++ SDE Karras     | 
@@ -389,7 +384,7 @@ The images displayed are generated directly by the AI without any extra manipula
 **Image Dimensions:** 1024 x 1024  
 
 
-| Image               | ![00023-2465035406.png](/sdxl/images/sdxl-1/00023-2465035406.png) | ![00023-2465035406.png](/sdxl/images/copax/00023-2465035406.png) | ![00023-2465035406.png](/sdxl/images/dreamshaper/00023-2465035406.png) | ![00023-2465035406.png](/sdxl/images/juggernaut/00023-2465035406.png) | ![00023-2465035406.png](/sdxl/images/realvis/00023-2465035406.png) |
+| Image               | ![00023-2465035406.png](/images/sdxl-1/00023-2465035406.png) | ![00023-2465035406.png](/images/copax/00023-2465035406.png) | ![00023-2465035406.png](/images/dreamshaper/00023-2465035406.png) | ![00023-2465035406.png](/images/juggernaut/00023-2465035406.png) | ![00023-2465035406.png](/images/realvis/00023-2465035406.png) |
 |---------------------|--------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------|--------------------------------------------------|-------------------------------------------------|
 | Model              | SDXL base 1.0 with 0.9 VAE + SDXL refiner 1.0 with 0.9 VAE | Copax TimeLessXL Version V9                         | Dreamshaper XL v2 Turbo DPMpp SDE                 | Juggernaut XL V8 + RunDiffusion                  | RealVisXL V3.0 (Baked VAE)                      |
 | Sampler             | DPM++ 2M Karras        | DPM 3M++ SDE Exponential    |        DPM++ SDE Karras                         |           DPM++ 2M Karras                       |                        DPM++ SDE Karras     | 
@@ -406,7 +401,7 @@ The images displayed are generated directly by the AI without any extra manipula
 **Image Dimensions:** 1024 x 1024  
 
 
-| Image               | ![00024-4289984695.png](/sdxl/images/sdxl-1/00024-4289984695.png) | ![00024-4289984695.png](/sdxl/images/copax/00024-4289984695.png) | ![00024-4289984695.png](/sdxl/images/dreamshaper/00024-4289984695.png) | ![00024-4289984695.png](/sdxl/images/juggernaut/00024-4289984695.png) | ![00024-4289984695.png](/sdxl/images/realvis/00024-4289984695.png) |
+| Image               | ![00024-4289984695.png](/images/sdxl-1/00024-4289984695.png) | ![00024-4289984695.png](/images/copax/00024-4289984695.png) | ![00024-4289984695.png](/images/dreamshaper/00024-4289984695.png) | ![00024-4289984695.png](/images/juggernaut/00024-4289984695.png) | ![00024-4289984695.png](/images/realvis/00024-4289984695.png) |
 |---------------------|--------------------------------------------------------|-----------------------------------------------------|--------------------------------------------------|--------------------------------------------------|-------------------------------------------------|
 | Model              | SDXL base 1.0 with 0.9 VAE + SDXL refiner 1.0 with 0.9 VAE | Copax TimeLessXL Version V9                         | Dreamshaper XL v2 Turbo DPMpp SDE                 | Juggernaut XL V8 + RunDiffusion                  | RealVisXL V3.0 (Baked VAE)                      |
 | Sampler             | DPM++ 2M Karras        | DPM 3M++ SDE Exponential    |        DPM++ SDE Karras                         |           DPM++ 2M Karras                       |                        DPM++ SDE Karras     | 

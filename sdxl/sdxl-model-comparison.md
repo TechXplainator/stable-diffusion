@@ -1,5 +1,10 @@
 # SDXL Model Comparison
 
+
+Testing image links:
+1.  ![00000-3719253140.png](/sdxl/images/sdxl-1/00000-3719253140.png)
+2. ![00000-3719253140.png](/images/sdxl-1/00000-3719253140.png)
+
 Most prompts were generated using [Leonardo AI](https://app.leonardo.ai/) Prompt Generator. However, I used Automatic1111 Stable Diffusion Web UI in Google Colab for image generation. I used the same prompts and seeds for all models.
 
 I applied identical prompts and seeds across all images. However, I adhered to the recommended configurations and negative prompts specific to each model.

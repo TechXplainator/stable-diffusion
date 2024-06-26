@@ -4,9 +4,6 @@
  - [Install ControlNet ](/install-controlnet.md)
  - [Comparison of different Stable Diffusion sampling methods](/sampler-comparison.md)
  - [Models for Stable Diffusion](/model-overview.md)
- - [How to write great prompts in Stable Diffusion](/create-great-prompts.md)
- - [Best SDXL Models](/sdxl/best-sdxl-models.md)
- - [SDXL Model Comparison](/sdxl/sdxl-model-comparison.md)
 
 
 

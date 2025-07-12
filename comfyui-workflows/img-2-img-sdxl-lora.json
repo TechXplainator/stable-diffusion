@@ -1,0 +1,537 @@
+{
+  "id": "def1681b-f39a-47fa-81ae-ebe9c9de1db3",
+  "revision": 0,
+  "last_node_id": 53,
+  "last_link_id": 81,
+  "nodes": [
+    {
+      "id": 42,
+      "type": "CheckpointLoaderSimple",
+      "pos": [
+        -427.018798828125,
+        59.83125305175781
+      ],
+      "size": [
+        315,
+        98
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "slot_index": 0,
+          "links": [
+            80
+          ]
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "slot_index": 1,
+          "links": [
+            77
+          ]
+        },
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "slot_index": 2,
+          "links": [
+            68,
+            72
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.30",
+        "Node name for S&R": "CheckpointLoaderSimple"
+      },
+      "widgets_values": [
+        "juggernaut_xl.safetensors"
+      ]
+    },
+    {
+      "id": 48,
+      "type": "LoadImage",
+      "pos": [
+        -431.67279052734375,
+        307.8572692871094
+      ],
+      "size": [
+        596.0379028320312,
+        653.6732788085938
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            76
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.30",
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "denoise1_00016_.png",
+        "image"
+      ]
+    },
+    {
+      "id": 49,
+      "type": "VAEEncode",
+      "pos": [
+        466.436279296875,
+        539.8810424804688
+      ],
+      "size": [
+        210,
+        46
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "pixels",
+          "type": "IMAGE",
+          "link": 76
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 72
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "slot_index": 0,
+          "links": [
+            71
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.30",
+        "Node name for S&R": "VAEEncode"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 43,
+      "type": "CLIPTextEncode",
+      "pos": [
+        329.0853271484375,
+        -11.078340530395508
+      ],
+      "size": [
+        422.84503173828125,
+        164.31304931640625
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 78
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "slot_index": 0,
+          "links": [
+            64
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.30",
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "ral-dissolve, a robot on a robot-horse, cinematic lighting, photorealistic, 8k, ultra detailed, cinematic still."
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 44,
+      "type": "CLIPTextEncode",
+      "pos": [
+        312.8228454589844,
+        232.47174072265625
+      ],
+      "size": [
+        425.27801513671875,
+        180.6060791015625
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 79
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "slot_index": 0,
+          "links": [
+            65
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.30",
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "text, watermark"
+      ],
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 45,
+      "type": "KSampler",
+      "pos": [
+        802.7218627929688,
+        8.666952133178711
+      ],
+      "size": [
+        357.88836669921875,
+        507.78973388671875
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 81
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 64
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 65
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 71
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "slot_index": 0,
+          "links": [
+            67
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.30",
+        "Node name for S&R": "KSampler"
+      },
+      "widgets_values": [
+        566455888529490,
+        "fixed",
+        30,
+        7,
+        "dpmpp_2m",
+        "karras",
+        0.6000000000000001
+      ]
+    },
+    {
+      "id": 46,
+      "type": "VAEDecode",
+      "pos": [
+        1245.165283203125,
+        10.936761856079102
+      ],
+      "size": [
+        210,
+        46
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 67
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 68
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            69
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.30",
+        "Node name for S&R": "VAEDecode"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 47,
+      "type": "SaveImage",
+      "pos": [
+        1208.071533203125,
+        203.5693359375
+      ],
+      "size": [
+        584.2091064453125,
+        746.2443237304688
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 69
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.30"
+      },
+      "widgets_values": [
+        "denoise1"
+      ]
+    },
+    {
+      "id": 53,
+      "type": "LoraLoader",
+      "pos": [
+        -30.674779891967773,
+        54.77268600463867
+      ],
+      "size": [
+        315,
+        126
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 80
+        },
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 77
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            81
+          ]
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            78,
+            79
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.30",
+        "Node name for S&R": "LoraLoader"
+      },
+      "widgets_values": [
+        "dissolve_sdxl.safetensors",
+        1.2000000000000002,
+        0.5000000000000001
+      ]
+    }
+  ],
+  "links": [
+    [
+      64,
+      43,
+      0,
+      45,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      65,
+      44,
+      0,
+      45,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      67,
+      45,
+      0,
+      46,
+      0,
+      "LATENT"
+    ],
+    [
+      68,
+      42,
+      2,
+      46,
+      1,
+      "VAE"
+    ],
+    [
+      69,
+      46,
+      0,
+      47,
+      0,
+      "IMAGE"
+    ],
+    [
+      71,
+      49,
+      0,
+      45,
+      3,
+      "LATENT"
+    ],
+    [
+      72,
+      42,
+      2,
+      49,
+      1,
+      "VAE"
+    ],
+    [
+      76,
+      48,
+      0,
+      49,
+      0,
+      "IMAGE"
+    ],
+    [
+      77,
+      42,
+      1,
+      53,
+      1,
+      "CLIP"
+    ],
+    [
+      78,
+      53,
+      1,
+      43,
+      0,
+      "CLIP"
+    ],
+    [
+      79,
+      53,
+      1,
+      44,
+      0,
+      "CLIP"
+    ],
+    [
+      80,
+      42,
+      0,
+      53,
+      0,
+      "MODEL"
+    ],
+    [
+      81,
+      53,
+      0,
+      45,
+      0,
+      "MODEL"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.6209213230591554,
+      "offset": [
+        484.8385985740915,
+        168.48859409053543
+      ]
+    },
+    "frontendVersion": "1.17.11",
+    "node_versions": {
+      "comfy-core": "0.3.10"
+    },
+    "groupNodes": {}
+  },
+  "version": 0.4
+}
